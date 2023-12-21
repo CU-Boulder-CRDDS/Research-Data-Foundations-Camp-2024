@@ -13,7 +13,7 @@ Digital Scholarship Librarian\
 Center for Research Data and Digital Scholarship\
 University of Colorado Boulder Libraries
 
-Matthew Murray\
+Matthew Murray (he/they)\
 Data Librarian\
 Center for Research Data and Digital Scholarship\
 University of Colorado Boulder Libraries
