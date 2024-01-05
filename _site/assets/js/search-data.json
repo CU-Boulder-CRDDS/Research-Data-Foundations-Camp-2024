@@ -139,7 +139,7 @@
   },"23": {
     "doc": "Acknowledgements",
     "title": "Acknowledgements",
-    "content": "This website was built by adapting a template that Evan Thornberry (UBC) and Phil White (CU Boulder) developed and presented at a workshop for the Western Association of Map Libraries. Their template was heavily influenced by the University of British Columbia Library Research Commons, and several UBC affiliates contributed to the template’s styling and example pages–particularly Evan Thornberry. The template uses the Just The Docs Jekyll theme. The repository containing Phil and Evan’s template is available here and you can view the rendered version here. Many thanks to Phil and Evan for making this resource available to the community of librarians and educators. We would also like to thank Noah Geisel, Thea Lindquist, and Robert McDonald for assistance with developing the Bootcamp’s microcredential; Cindy Edgar for assistance with planning, organizing, and advertising the initial version of Bootcamp; Mark Locy for assistance with advertising and promotion; and CU Boulder Research Computing (particularly Andy Monaghan and Andrew Wilson) for assistance with setting up virtual environments. ",
+    "content": "This website was built by adapting a template that Evan Thornberry (UBC) and Phil White (CU Boulder) developed and presented at a workshop for the Western Association of Map Libraries. Their template was heavily influenced by the University of British Columbia Library Research Commons, and several UBC affiliates contributed to the template’s styling and example pages–particularly Evan Thornberry. The template uses the Just The Docs Jekyll theme. The repository containing Phil and Evan’s template is available here and you can view the rendered version here. Many thanks to Phil and Evan for making this resource available to the community of librarians and educators. We would also like to thank Noah Geisel, Thea Lindquist, and Robert McDonald for assistance with developing the Camp’s microcredential; Cindy Edgar for assistance with planning, organizing, and advertising the initial version of Camp; Mark Locy for assistance with advertising and promotion; and CU Boulder Research Computing (particularly Andy Monaghan and Andrew Wilson) for assistance with setting up virtual environments. ",
     "url": "http://localhost:4000/RDC_january2024/content/acknowledgements.html",
     "relUrl": "/content/acknowledgements.html"
   },"24": {
@@ -221,396 +221,390 @@
     "url": "http://localhost:4000/RDC_january2024/content/data-ethics.html#additional-resources",
     "relUrl": "/content/data-ethics.html#additional-resources"
   },"37": {
-    "doc": "Data Publishing and CU Scholar",
-    "title": "Data Publishing and and CU Scholar",
+    "doc": "Data Publishing and Repositories",
+    "title": "Data Publishing and Repositories",
     "content": " ",
-    "url": "http://localhost:4000/RDC_january2024/content/data-publishing-CU-scholar.html#data-publishing-and-and-cu-scholar",
-    "relUrl": "/content/data-publishing-CU-scholar.html#data-publishing-and-and-cu-scholar"
+    "url": "http://localhost:4000/RDC_january2024/content/data-publishing-CU-scholar.html",
+    "relUrl": "/content/data-publishing-CU-scholar.html"
   },"38": {
-    "doc": "Data Publishing and CU Scholar",
+    "doc": "Data Publishing and Repositories",
     "title": "Instructor",
-    "content": "Melissa Cantrell Assistant Professor Scholarly Communication Librarian Center for Research Data and Digital Scholarship . Matthew Murray Data Librarian Center for Research Data and Digital Scholarship . ",
+    "content": "Melissa Cantrell Assistant Professor Scholarly Communication Librarian Center for Research Data and Digital Scholarship . Andrew Johnson Associate Professor Head of Data and Scholarly Communciation Services Center for Research Data and Digital Scholarship . ",
     "url": "http://localhost:4000/RDC_january2024/content/data-publishing-CU-scholar.html#instructor",
     "relUrl": "/content/data-publishing-CU-scholar.html#instructor"
   },"39": {
-    "doc": "Data Publishing and CU Scholar",
+    "doc": "Data Publishing and Repositories",
     "title": "Session Synopsis",
     "content": "This section provides an overview of resources, requirements, and best practices relevant to data management and data publishing. ",
     "url": "http://localhost:4000/RDC_january2024/content/data-publishing-CU-scholar.html#session-synopsis",
     "relUrl": "/content/data-publishing-CU-scholar.html#session-synopsis"
   },"40": {
-    "doc": "Data Publishing and CU Scholar",
+    "doc": "Data Publishing and Repositories",
     "title": "Presentation",
     "content": "If you’d like to access the presentation slide-deck in its own window, please click here. ",
     "url": "http://localhost:4000/RDC_january2024/content/data-publishing-CU-scholar.html#presentation",
     "relUrl": "/content/data-publishing-CU-scholar.html#presentation"
   },"41": {
-    "doc": "Data Publishing and CU Scholar",
-    "title": "Data Publishing and CU Scholar",
-    "content": " ",
-    "url": "http://localhost:4000/RDC_january2024/content/data-publishing-CU-scholar.html",
-    "relUrl": "/content/data-publishing-CU-scholar.html"
-  },"42": {
     "doc": "Data Management",
     "title": "Data Management",
     "content": " ",
     "url": "http://localhost:4000/RDC_january2024/content/data_management.html",
     "relUrl": "/content/data_management.html"
-  },"43": {
+  },"42": {
     "doc": "Data Management",
     "title": "Instructor",
-    "content": "Matthew Murray Data Librarian Center for Research Data and Digital Scholarship University of Colorado Boulder Libraries . ",
+    "content": "Mara Sedlins Research Data Management Specialist Colorado State University Libraries . ",
     "url": "http://localhost:4000/RDC_january2024/content/data_management.html#instructor",
     "relUrl": "/content/data_management.html#instructor"
-  },"44": {
+  },"43": {
     "doc": "Data Management",
     "title": "Introduction",
     "content": "This presentation introduces basic concepts, tools, and resources that will help you to store and manage your research data. ",
     "url": "http://localhost:4000/RDC_january2024/content/data_management.html#introduction",
     "relUrl": "/content/data_management.html#introduction"
-  },"45": {
+  },"44": {
     "doc": "Data Management",
     "title": "Presentation",
     "content": "If you’d like to access the presentation slide-deck in a separate window, please click here. ",
     "url": "http://localhost:4000/RDC_january2024/content/data_management.html#presentation",
     "relUrl": "/content/data_management.html#presentation"
-  },"46": {
+  },"45": {
     "doc": "Data Management",
     "title": "Additional Resource",
     "content": "Guide to DMPTool for CU Boulder Researchers . ",
     "url": "http://localhost:4000/RDC_january2024/content/data_management.html#additional-resource",
     "relUrl": "/content/data_management.html#additional-resource"
-  },"47": {
+  },"46": {
     "doc": "Presentation",
     "title": "Presentation",
     "content": "If you’d like to access the presentation slide-deck in a separate window, please click here. ",
     "url": "http://localhost:4000/RDC_january2024/content/data_management/data_managment_lesson.html",
     "relUrl": "/content/data_management/data_managment_lesson.html"
-  },"48": {
+  },"47": {
     "doc": "Presentation",
     "title": "Presentation",
     "content": "If you’d like to access the presentation slide-deck in its own window, please click here. ",
     "url": "http://localhost:4000/RDC_january2024/content/data-publishing-cu-scholar/data_publishing_presentation.html",
     "relUrl": "/content/data-publishing-cu-scholar/data_publishing_presentation.html"
-  },"49": {
+  },"48": {
     "doc": "Frequently Asked Questions (FAQs)",
     "title": "Frequently Asked Questions (FAQ)",
     "content": "As the Bootcamp proceeds, please note any of your questions in the Zoom chat. If we note a pattern of recurring questions, we will attempt to address those questions on this page, which will be preserved as a resource for future learners. I’m trying to unzip the file for the python session but getting an inappropriate file or format error . If you are working from a Mac this may be an error in the zip funtion. Check out this solution for unzipping from the terminal: https://softwaretested.com/mac/what-is-error-79-inappropriate-file-type-or-format/. If that’s not working, consider using the virtual environment set up by Research Computing for the Boot Camp. Instructions can be found on this page: https://cu-boulder-crdds.github.io/data_bootcamp/content/data-analysis-in-python/preliminaries.html . ",
     "url": "http://localhost:4000/RDC_january2024/content/introduction/faq.html#frequently-asked-questions-faq",
     "relUrl": "/content/introduction/faq.html#frequently-asked-questions-faq"
-  },"50": {
+  },"49": {
     "doc": "Frequently Asked Questions (FAQs)",
     "title": "Frequently Asked Questions (FAQs)",
     "content": " ",
     "url": "http://localhost:4000/RDC_january2024/content/introduction/faq.html",
     "relUrl": "/content/introduction/faq.html"
-  },"51": {
+  },"50": {
     "doc": "Data Discovery",
     "title": "Data Discovery",
     "content": " ",
     "url": "http://localhost:4000/RDC_january2024/content/finding-data.html",
     "relUrl": "/content/finding-data.html"
-  },"52": {
+  },"51": {
     "doc": "Data Discovery",
     "title": "Instructor",
     "content": "Liz Novosel Computer Science, Mathematics and Social Sciences Librarian University of Colorado Boulder Libraries . ",
     "url": "http://localhost:4000/RDC_january2024/content/finding-data.html#instructor",
     "relUrl": "/content/finding-data.html#instructor"
-  },"53": {
+  },"52": {
     "doc": "Data Discovery",
     "title": "Session Synopsis",
     "content": "This presentation will review strategies and resources that will help you to discover secondary research that is relevant to your research interests and needs. ",
     "url": "http://localhost:4000/RDC_january2024/content/finding-data.html#session-synopsis",
     "relUrl": "/content/finding-data.html#session-synopsis"
-  },"54": {
+  },"53": {
     "doc": "Data Discovery",
     "title": "Presentation",
     "content": "If you’d like to access the presentation slide-deck in its own window, please click here. ",
     "url": "http://localhost:4000/RDC_january2024/content/finding-data.html#presentation",
     "relUrl": "/content/finding-data.html#presentation"
-  },"55": {
+  },"54": {
     "doc": "Data Discovery",
     "title": "Activity",
     "content": ". | Activity | . ",
     "url": "http://localhost:4000/RDC_january2024/content/finding-data.html#activity",
     "relUrl": "/content/finding-data.html#activity"
-  },"56": {
+  },"55": {
     "doc": "Data Discovery",
     "title": "Additional Resources",
     "content": ". | Finding Data Libguide | . ",
     "url": "http://localhost:4000/RDC_january2024/content/finding-data.html#additional-resources",
     "relUrl": "/content/finding-data.html#additional-resources"
-  },"57": {
+  },"56": {
     "doc": "GitHub and GitHub Pages",
     "title": "GitHub and GitHub Pages",
     "content": "Welcome to this Introductory workshop on GitHub Pages. During the workshop, we will walk through the information and tasks detailed on these pages. Use the table of contents to navigate through the workshop. Presenter . Phil White Earth, Environment &amp; Geospatial Librarian University of Colorado Boulder Libraries philip.white@colorado.edu . | Please create a GitHub account right now if you have yet to do so. | . Goal of this Workshop . The goal of this workshop is to get you started on GitHub Pages. This is not a workshop on Git. We will discuss Git some, but mainly we will focus on GitHub and getting you comfortable with GitHub Pages so you can set up a great looking, free, easy website for your projects or portfolio. Schedule . | Time | Content | . | 1:00 | Introductions | . | 1:05 | Slides: Git/GitHub Background and GH Pages | . | 1:25 | Hands on: Fork it! Spin it! Play! | . | 2:05 | Advanced customization: Themes, running locally, workflows | . | 2:20 | Wrap Up/ Q&amp;A | . Slides . Click on the slides then press the F key for full screen . ",
     "url": "http://localhost:4000/RDC_january2024/content/git_github.html",
     "relUrl": "/content/git_github.html"
-  },"58": {
+  },"57": {
     "doc": "Home",
     "title": "January 2024 Research Data Camp",
     "content": "Sponsored by the Center for Research Data and Digital Scholarship (CRDDS) and Colorado State University Libraries . ",
     "url": "http://localhost:4000/RDC_january2024/#january-2024-research-data-camp",
     "relUrl": "/#january-2024-research-data-camp"
-  },"59": {
+  },"58": {
     "doc": "Home",
     "title": "Coordinators",
-    "content": "Nickoal Eichmann-Kalwara Digital Scholarship Librarian Center for Research Data and Digital Scholarship University of Colorado Boulder Libraries . Matthew Murray Data Librarian Center for Research Data and Digital Scholarship University of Colorado Boulder Libraries . Liz Novosel Computer Science, Mathematics and Social Sciences Librarian University of Colorado Boulder Libraries . Kim Popetz Event and Outreach Coordinator Center for Research Data and Digital Scholarship University of Colorado Boulder Libraries . Aditya (Adi) Ranganath (he/his) Data Librarian Center for Research Data and Digital Scholarship University of Colorado Boulder Libraries Aditya.Ranganath@colorado.edu . Mara Sedlins Data Management Specialist Colorado State University Libraries . Kevin Worthington Maps and GIS Data Specialist Colorado State University Libraries . ",
+    "content": "Nickoal Eichmann-Kalwara Digital Scholarship Librarian Center for Research Data and Digital Scholarship University of Colorado Boulder Libraries . Matthew Murray (he/they) Data Librarian Center for Research Data and Digital Scholarship University of Colorado Boulder Libraries . Liz Novosel Computer Science, Mathematics and Social Sciences Librarian University of Colorado Boulder Libraries . Kim Popetz Event and Outreach Coordinator Center for Research Data and Digital Scholarship University of Colorado Boulder Libraries . Aditya (Adi) Ranganath (he/his) Data Librarian Center for Research Data and Digital Scholarship University of Colorado Boulder Libraries Aditya.Ranganath@colorado.edu . Mara Sedlins Data Management Specialist Colorado State University Libraries . Kevin Worthington Maps and GIS Data Specialist Colorado State University Libraries . ",
     "url": "http://localhost:4000/RDC_january2024/#coordinators",
     "relUrl": "/#coordinators"
-  },"60": {
+  },"59": {
     "doc": "Home",
     "title": "Schedule",
-    "content": "Tuesday, January 9 . | Time | Content | Presenter(s) | . | 10:00 to 10:25 | Welcome and Introduction | Adi Ranganath | . | 10:30-11:15 | Data Discovery | Liz Novosel | . | 11:15-12:00 | Data Ethics | Nickoal Eichmann-Kalwara and Katerina Allmendinger | . | 12:00-12:55 | Break |   | . | 1:00-2:15 | Data Publishing | Andrew Johnson and Melissa Cantrell | . | 2:15 to 3:30 | Data Management | Mara Sedlins | . | 3:30 to 3:45 | Break |   | . | 3:45 to 4:45 | Interdisciplinary Tools Tour | Nickoal Eichmann-Kalwara | . Wednesday, January 10 . | Time | Content | Presenter(s) | . | 10:00 to 12:00 | GitHub Pages | Phil White | . | 12:00 to 1:00 | Break |   | . | 1:00 to 4:45 | R for Empirical Research | Ellery Galvin | . Thursday, January 11 . | Time | Content | Presenters(s) | . | 10:00 to 12:00 | Python Fundamentals | Kevin Worthington | . | 12:00 to 12:55 | Break |   | . | 1:00 to 3:30 | Data Analysis in Python | Kevin Worthington | . | 3:30 to 3:45 | Conclusion and Wrap-Up | Adi Ranganath | . | 3:45 to 5:00 | Optional Office Hours | CRDDS Team | . Actual schedule may vary depending on group needs; all times refer to Mountain Standard Time (MST) . ",
+    "content": "Tuesday, January 9 . | Time | Content | Presenter(s) | . | 10:00 to 10:25 | Welcome and Introduction | Adi Ranganath | . | 10:30-11:15 | Data Discovery | Liz Novosel | . | 11:15-12:00 | Data Ethics | Nickoal Eichmann-Kalwara and Katerina Allmendinger | . | 12:00-12:55 | Break |   | . | 1:00-2:15 | Data Publishing | Melissa Cantrell and Andrew Johnson | . | 2:15 to 3:30 | Data Management | Mara Sedlins | . | 3:30 to 3:45 | Break |   | . | 3:45 to 4:45 | Interdisciplinary Tools Tour | Nickoal Eichmann-Kalwara | . Wednesday, January 10 . | Time | Content | Presenter(s) | . | 10:00 to 12:00 | GitHub Pages | Phil White | . | 12:00 to 1:00 | Break |   | . | 1:00 to 4:45 | R for Empirical Research | Ellery Galvin | . Thursday, January 11 . | Time | Content | Presenters(s) | . | 10:00 to 12:00 | Python Fundamentals | Kevin Worthington | . | 12:00 to 12:55 | Break |   | . | 1:00 to 3:30 | Data Analysis in Python | Kevin Worthington | . | 3:30 to 3:45 | Conclusion and Wrap-Up | Adi Ranganath | . | 3:45 to 5:00 | Optional Office Hours | CRDDS Team | . Actual schedule may vary depending on group needs; all times refer to Mountain Standard Time (MST) . ",
     "url": "http://localhost:4000/RDC_january2024/#schedule",
     "relUrl": "/#schedule"
-  },"61": {
+  },"60": {
     "doc": "Home",
     "title": "Home",
     "content": " ",
     "url": "http://localhost:4000/RDC_january2024/",
     "relUrl": "/"
-  },"62": {
+  },"61": {
     "doc": "Installation Instructions",
     "title": "Installation Instructions",
     "content": "In order to follow along with the sessions on R and Python (on Days 2 and 3 respectively), you will need to install relevant applications. Please attempt to complete these installations before the start of the Camp, and let us know on Day 1 if you are having installation issues that we could try to help with. ",
     "url": "http://localhost:4000/RDC_january2024/content/introduction/installation.html",
     "relUrl": "/content/introduction/installation.html"
-  },"63": {
+  },"62": {
     "doc": "Installation Instructions",
     "title": "Python Installation Instructions",
     "content": "The Python workshop uses Anaconda, a data science platform which includes all the required software needed for the Python component of this workshop. Please download and install Anaconda in advance of this workshop, accepting the default options during installation. If you need assistance with this, or just want to meet others planning on attending the Python workshop, please come to the virtual Python Research Data Camp office hour on Jan 9th at 12pm. ",
     "url": "http://localhost:4000/RDC_january2024/content/introduction/installation.html#python-installation-instructions",
     "relUrl": "/content/introduction/installation.html#python-installation-instructions"
-  },"64": {
+  },"63": {
     "doc": "Installation Instructions",
     "title": "R and R Studio Installation Instructions",
     "content": "Please follow these instructions on how to install R and the free desktop version of R Studio. ",
     "url": "http://localhost:4000/RDC_january2024/content/introduction/installation.html#r-and-r-studio-installation-instructions",
     "relUrl": "/content/introduction/installation.html#r-and-r-studio-installation-instructions"
-  },"65": {
+  },"64": {
     "doc": "Interdisciplinary Tools Tour",
     "title": "Interdisciplinary Tools Tour",
     "content": " ",
     "url": "http://localhost:4000/RDC_january2024/content/interdisciplinary-tour.html",
     "relUrl": "/content/interdisciplinary-tour.html"
-  },"66": {
+  },"65": {
     "doc": "Interdisciplinary Tools Tour",
     "title": "Instructor",
     "content": "Nickoal Eichmann-Kalwara Digital Scholarship Librarian Center for Research Data and Digital Scholarship University of Colorado Boulder Libraries . ",
     "url": "http://localhost:4000/RDC_january2024/content/interdisciplinary-tour.html#instructor",
     "relUrl": "/content/interdisciplinary-tour.html#instructor"
-  },"67": {
+  },"66": {
     "doc": "Interdisciplinary Tools Tour",
     "title": "Session Synopsis",
     "content": "This session will introduce interdisciplinary data practices and research lifecycles, explore types and applications of humanities and qualitative data, and and discuss the role of mixed-methods approaches in data-intensive research. ",
     "url": "http://localhost:4000/RDC_january2024/content/interdisciplinary-tour.html#session-synopsis",
     "relUrl": "/content/interdisciplinary-tour.html#session-synopsis"
-  },"68": {
+  },"67": {
     "doc": "Interdisciplinary Tools Tour",
     "title": "Presentation",
     "content": "If you’d like to access the presentation slide-deck in its own window, please click here . ",
     "url": "http://localhost:4000/RDC_january2024/content/interdisciplinary-tour.html#presentation",
     "relUrl": "/content/interdisciplinary-tour.html#presentation"
-  },"69": {
+  },"68": {
     "doc": "Introduction",
     "title": "Introduction",
     "content": " ",
     "url": "http://localhost:4000/RDC_january2024/content/introduction.html",
     "relUrl": "/content/introduction.html"
-  },"70": {
+  },"69": {
     "doc": "Introduction",
     "title": "Description",
     "content": "As data-based research becomes a common practice, skills in data management, data analysis, and computational thinking are increasingly important for applied researchers. This Research Data Camp aims to provide incoming and continuing graduate students with a gentle introduction to data and programming-related research tools that will increase their access to cutting-edge methods as they begin their programs and research. Topics covered include data management and data storage; tools for collaboration and sharing (using GitHub and GitHub Pages); qualitative data; data ethics; data analysis and visualization fundamentals in Python and R; and an overview of data publishing and data management. At the conclusion of the Research Data Camp, participants are invited to earn microcredential that certifies their competence in the topics that are covered. We will provide more information about this opportunity on the final day of the Research Data Camp. ",
     "url": "http://localhost:4000/RDC_january2024/content/introduction.html#description",
     "relUrl": "/content/introduction.html#description"
-  },"71": {
+  },"70": {
     "doc": "Land Acknowledgement",
     "title": "Land acknowledgement",
     "content": "Before beginning the workshop, we’d like to acknowledge the indigenous lands upon which our institution resides. The University of Colorado Boulder is located on the territories of the Núu-agha-tʉvʉ-pʉ̱ (Ute), Cheyenne, Arapahoe, and Očhéthi Šakówiŋ (Sioux) peoples. 48 contemporary tribal nations are historically tied to the lands that make up Colorado. ",
     "url": "http://localhost:4000/RDC_january2024/content/introduction/land-acknowledgement.html#land-acknowledgement",
     "relUrl": "/content/introduction/land-acknowledgement.html#land-acknowledgement"
-  },"72": {
+  },"71": {
     "doc": "Land Acknowledgement",
     "title": "Land Acknowledgement",
     "content": " ",
     "url": "http://localhost:4000/RDC_january2024/content/introduction/land-acknowledgement.html",
     "relUrl": "/content/introduction/land-acknowledgement.html"
-  },"73": {
+  },"72": {
     "doc": "Research Data Camp Microcredential",
     "title": "Research Data Camp Microcredential",
     "content": "The goal of the Research Data Bootcamp Microcredential is to provide learners with an opportunity to demonstrate literacy in: . | R OR Python programming for data analysis | Critical evaluation of existing data sets and data approaches | . To earn the microcredential certifying literacy in these areas, learners must complete the following: . | Attend all three days of the Research Data Bootcamp | Complete a final project (described below) that demonstrates Bootcamp-specific knowledge and skills | . ",
     "url": "http://localhost:4000/RDC_january2024/content/wrap-up/microcredential.html",
     "relUrl": "/content/wrap-up/microcredential.html"
-  },"74": {
+  },"73": {
     "doc": "Research Data Camp Microcredential",
     "title": "Final Project",
     "content": "The final project will be due by June 30th; to submit the project, push your project code to a dedicated GitHub repository, and send us a link to the repository. Final projects will consist of a portfolio of work hosted on a GitHub repository (you are also encouraged to publish your portfolio materials via GitHub pages; see below). Completed microcredential project portfolios must include the following elements: . | Question or Hypothesis: A statement of a question or hypothesis that you are interested in investigating with data (the question or hypothesis could be relevant to your formal academic interests, but this is by no means necessary). Briefly explain the variables (which often correspond to the columns of a conventional tabular data set) you would need to answer your question or test your hypothesis. | Python or R Code and Analysis Outputs: Find a data set that will allow you to explore the question you formulated in (1). Write one script (either an R script or Python Script) that casts light on your question. For example, you might write code that produces a visualization, implements a statistical test, calculates summary statistics, generates a crosstab, or derives a new data set from an existing one (for example, creating a “tidy” data set from an unstructured one). | Please note that you are welcome to write two scripts (one in R and one in Python) if this would help your learning goals, or you would like to demonstrate proficiency in both. However, you are only required to write one. | Please comment your code so that other researchers (or your future self!) can easily follow and understand your script. | Please remember to cite the data set you use in your analysis, as well as other relevant contextual information in the repository’s Readme. | . | Data set Evaluation: A brief (250-500 words) that evaluates a data set with respect to one of the FAIR principles, and best practices for data publishing more generally. In the write-up, you might reflect on the challenges that a user of the data set might encounter, or suggest changes to the data set’s documentation or metadata with a view towards enhancing its reusability for future users. | . ",
     "url": "http://localhost:4000/RDC_january2024/content/wrap-up/microcredential.html#final-project",
     "relUrl": "/content/wrap-up/microcredential.html#final-project"
-  },"75": {
+  },"74": {
     "doc": "Research Data Camp Microcredential",
     "title": "Making Your Microcredential GitHub Repository",
     "content": "Please add files that correspond to the above requirements (a statement of a question or hypothesis, an R script or Python script, and data set evaluation) to a GitHub repository that is specifically created to host your Microcredential project materials. When all of your material is uploaded, please send us a link to your repository by completing this form. We encourage you to write your code in R Markdown or in a Jupyter Notebook, and to publish your files via GitHub Pages, particularly if you plan to submit your microcredential to future employers or mentors (since this will make it easier for others to quickly understand your work, and demonstrate familiarity with important tools that facilitate sharing and reproducibility). If you do publish your code via GitHub Pages, please send us a link to these published files, in addition to the link to your GitHub repository. However, you are not required to publish your code via GitHub Pages. It is perfectly fine to simply push your raw code to a GitHub repository, and send us the link; this will be sufficient to earn the microcredential. ",
     "url": "http://localhost:4000/RDC_january2024/content/wrap-up/microcredential.html#making-your-microcredential-github-repository",
     "relUrl": "/content/wrap-up/microcredential.html#making-your-microcredential-github-repository"
-  },"76": {
+  },"75": {
     "doc": "Research Data Camp Microcredential",
     "title": "What You Will Receive",
     "content": "If you complete and submit the microcredential project, you will receive a digital certificate that officially certifies your participation in the Bootcamp, and your completion of the associated project. This certificate will include a link to the repository containing your project materials; this will allow those viewing the microcredential (for example, future employers, supervisors, or collaborators) to verify your familiarity with the Bootcamp’s core competencies. ",
     "url": "http://localhost:4000/RDC_january2024/content/wrap-up/microcredential.html#what-you-will-receive",
     "relUrl": "/content/wrap-up/microcredential.html#what-you-will-receive"
-  },"77": {
+  },"76": {
     "doc": "Research Data Camp Microcredential",
     "title": "Examples",
     "content": "To give you a sense of the nature and scope of a possible project, consider the following hypothetical project ideas: . Example 1:Using information from a data set that contains information on the geographic locations of US yoga studios, we might calculate the geographic density of yoga studios with respect to a geographic unit of interest. For our portfolio, we might create a table from this data set (ex. “Census Tracts With Highest Yoga Studio Density per Square Kilometer”), which could be accompanied by a visualization that depicts this variation in density (such as a map or bar chart). The table and visualization, along with the code used to generate them, could be pushed up to your GitHub repository as part of your microcredential portfolio. Example 2:In a data set of snowfall across several ski resorts/areas, we might write code to generate a table of summary statistics (i.e. mean, median, standard deviation etc.) for the snowfall variable (and other variables of interest). Alternatively, we could calculate correlations between variables of interest, or formally test hypotheses using inferential statistics (for example, using a difference of means test or a regression analysis). In this case, the output containing the results of the relevant test(s) (ex. a table of summary statistics, regression table etc.) and the code used to create them would be our portfolio examples. ",
     "url": "http://localhost:4000/RDC_january2024/content/wrap-up/microcredential.html#examples",
     "relUrl": "/content/wrap-up/microcredential.html#examples"
-  },"78": {
+  },"77": {
     "doc": "Research Data Camp Microcredential",
     "title": "Final Project Tips",
     "content": ". | This does not have to be perfect! We are looking for demonstrated literacy and understanding of the concepts and discussions through the Bootcamp. | We are here to help! Please join the end-of-day clinics or reach out to us if you have any questions or are struggling with any aspect of the boot camp or microcredential. Peer support and feedback is an integral part of data work. | Explore relevant online resources In addition to reaching out to us for help, we also encourage you to take this opportunity to troubleshoot possible problems by seeking help from online resources and documentation relevant to R and Python. These resources are substantial, and an important part of the learning process involves self-directed troubleshooting using these resources. | . ",
     "url": "http://localhost:4000/RDC_january2024/content/wrap-up/microcredential.html#final-project-tips",
     "relUrl": "/content/wrap-up/microcredential.html#final-project-tips"
-  },"79": {
+  },"78": {
     "doc": "Research Data Camp Microcredential",
     "title": "Turn in Your Final Portfolio Project!",
     "content": "Use this Google Survey link to turn in your project. Be sure to give us your: . | First and last name | Your email (preferably your CU Boulder email but personal email is ok if that’s not possible) | A link to your find GitHub page or repository containing your project materials. | . Cheers! . ",
     "url": "http://localhost:4000/RDC_january2024/content/wrap-up/microcredential.html#turn-in-your-final-portfolio-project",
     "relUrl": "/content/wrap-up/microcredential.html#turn-in-your-final-portfolio-project"
-  },"80": {
+  },"79": {
     "doc": "Preliminaries",
     "title": "R and R Studio Installation",
     "content": "For instructions on how to download R and R Studio, please see here. ",
     "url": "http://localhost:4000/RDC_january2024/content/data-analysis-in-R/preliminaries.html#r-and-r-studio-installation",
     "relUrl": "/content/data-analysis-in-R/preliminaries.html#r-and-r-studio-installation"
-  },"81": {
+  },"80": {
     "doc": "Preliminaries",
     "title": "Session data",
     "content": "Before beginning the lesson, please download the data to a directory on your computer. Simply click the grey “Download” button at the top of the page. ",
     "url": "http://localhost:4000/RDC_january2024/content/data-analysis-in-R/preliminaries.html#session-data",
     "relUrl": "/content/data-analysis-in-R/preliminaries.html#session-data"
-  },"82": {
+  },"81": {
     "doc": "Preliminaries",
     "title": "Preliminaries",
     "content": " ",
     "url": "http://localhost:4000/RDC_january2024/content/data-analysis-in-R/preliminaries.html",
     "relUrl": "/content/data-analysis-in-R/preliminaries.html"
-  },"83": {
+  },"82": {
     "doc": "Preliminaries",
     "title": "Python Installation",
     "content": "The Python workshop uses Anaconda, a data science platform which includes all the required software needed for the Python component of this workshop. Please download and install Anaconda in advance of this workshop, accepting the default options during installation. If you need assistance with this, or just want to meet others planning on attending the Python workshop, please come to the virtual Python Research Data Camp office hour on Jan 9th at 12pm. ",
     "url": "http://localhost:4000/RDC_january2024/content/data-analysis-in-python/preliminaries.html#python-installation",
     "relUrl": "/content/data-analysis-in-python/preliminaries.html#python-installation"
-  },"84": {
+  },"83": {
     "doc": "Preliminaries",
     "title": "Preliminaries",
     "content": " ",
     "url": "http://localhost:4000/RDC_january2024/content/data-analysis-in-python/preliminaries.html",
     "relUrl": "/content/data-analysis-in-python/preliminaries.html"
-  },"85": {
+  },"84": {
     "doc": "Presentation",
     "title": "Presentation Materials",
     "content": "Please click the links below for relevant presentation materials: . | Slide Deck | Activity | Libguide | . ",
     "url": "http://localhost:4000/RDC_january2024/content/finding_data/presentation.html#presentation-materials",
     "relUrl": "/content/finding_data/presentation.html#presentation-materials"
-  },"86": {
+  },"85": {
     "doc": "Presentation",
     "title": "Presentation",
     "content": " ",
     "url": "http://localhost:4000/RDC_january2024/content/finding_data/presentation.html",
     "relUrl": "/content/finding_data/presentation.html"
-  },"87": {
+  },"86": {
     "doc": "Presentation",
     "title": "Presentation",
     "content": "If you’d like to access the presentation slide-deck in its own window, please click here . ",
     "url": "http://localhost:4000/RDC_january2024/content/qualitative_data/presentation.html",
     "relUrl": "/content/qualitative_data/presentation.html"
-  },"88": {
+  },"87": {
     "doc": "Working with Data",
     "title": "Working With Data in Python",
     "content": "Link . ",
     "url": "http://localhost:4000/RDC_january2024/content/data-analysis-in-python/python102.html#working-with-data-in-python",
     "relUrl": "/content/data-analysis-in-python/python102.html#working-with-data-in-python"
-  },"89": {
+  },"88": {
     "doc": "Working with Data",
     "title": "Working with Data",
     "content": " ",
     "url": "http://localhost:4000/RDC_january2024/content/data-analysis-in-python/python102.html",
     "relUrl": "/content/data-analysis-in-python/python102.html"
-  },"90": {
+  },"89": {
     "doc": "Working with Data",
     "title": "Data Visualization in Python",
     "content": "Link . ",
     "url": "http://localhost:4000/RDC_january2024/content/data-analysis-in-python/python201.html#data-visualization-in-python",
     "relUrl": "/content/data-analysis-in-python/python201.html#data-visualization-in-python"
-  },"91": {
+  },"90": {
     "doc": "Working with Data",
     "title": "Working with Data",
     "content": " ",
     "url": "http://localhost:4000/RDC_january2024/content/data-analysis-in-python/python201.html",
     "relUrl": "/content/data-analysis-in-python/python201.html"
-  },"92": {
+  },"91": {
     "doc": "Data Analysis in Python",
     "title": "Data Analysis in Python",
     "content": "The module on Data Analysis in Python is comprised of the following sub-modules: . | Working With Data in Python | Visualizing Data in Python | . ",
     "url": "http://localhost:4000/RDC_january2024/content/data-analysis-in-python/python_data_analysis.html",
     "relUrl": "/content/data-analysis-in-python/python_data_analysis.html"
-  },"93": {
+  },"92": {
     "doc": "Python Fundamentals",
     "title": "Python Fundamentals Presentation",
     "content": "If you’d like to access the presentation slide-deck in its own window, please click here. ",
     "url": "http://localhost:4000/RDC_january2024/content/data-analysis-in-python/python_foundations.html#python-fundamentals-presentation",
     "relUrl": "/content/data-analysis-in-python/python_foundations.html#python-fundamentals-presentation"
-  },"94": {
+  },"93": {
     "doc": "Python Fundamentals",
     "title": "Python Fundamentals",
     "content": " ",
     "url": "http://localhost:4000/RDC_january2024/content/data-analysis-in-python/python_foundations.html",
     "relUrl": "/content/data-analysis-in-python/python_foundations.html"
-  },"95": {
+  },"94": {
     "doc": "R Resources",
     "title": "R Resources",
     "content": " ",
     "url": "http://localhost:4000/RDC_january2024/content/data-analysis-in-R/r-resources.html",
     "relUrl": "/content/data-analysis-in-R/r-resources.html"
-  },"96": {
+  },"95": {
     "doc": "R Resources",
     "title": "Cheatsheets and Reference Guides",
     "content": ". | dyplyr cheat sheet (data wrangling) | ggplot cheat sheet (data visualization) | R Markdown Cheatsheet (reproducibility and communication of results) | Base R cheat sheet | R Reference Card | . ",
     "url": "http://localhost:4000/RDC_january2024/content/data-analysis-in-R/r-resources.html#cheatsheets-and-reference-guides",
     "relUrl": "/content/data-analysis-in-R/r-resources.html#cheatsheets-and-reference-guides"
-  },"97": {
+  },"96": {
     "doc": "R Resources",
     "title": "Troubleshooting",
     "content": ". | rseek (search most online R documentation and discussion forums) | R inferno (useful for troubleshooting) | . ",
     "url": "http://localhost:4000/RDC_january2024/content/data-analysis-in-R/r-resources.html#troubleshooting",
     "relUrl": "/content/data-analysis-in-R/r-resources.html#troubleshooting"
-  },"98": {
+  },"97": {
     "doc": "R Resources",
     "title": "Data Visualization Guides and Tutorials",
     "content": ". | qplots tutorial | Histograms/Density plots tutorial | Boxplots/Violin plots tutorial | Scatterplots tutorial | . ",
     "url": "http://localhost:4000/RDC_january2024/content/data-analysis-in-R/r-resources.html#data-visualization-guides-and-tutorials",
     "relUrl": "/content/data-analysis-in-R/r-resources.html#data-visualization-guides-and-tutorials"
-  },"99": {
+  },"98": {
     "doc": "R Resources",
     "title": "General guides and courses",
     "content": ". | Data Carpentry | R manuals by CRAN | R for Beginners by Emmanuel Paradis | The R Guide by W.J. Owen | An Introduction to R by Longhow Lam | Cookbook for R | Advanced R by Hadley Wickham | R Programming in Coursera | R for Data Science | . ",
     "url": "http://localhost:4000/RDC_january2024/content/data-analysis-in-R/r-resources.html#general-guides-and-courses",
     "relUrl": "/content/data-analysis-in-R/r-resources.html#general-guides-and-courses"
-  },"100": {
+  },"99": {
     "doc": "R Resources",
     "title": "Video Tutorials",
     "content": ". | YouTube R channel | Various R videos | . ",
     "url": "http://localhost:4000/RDC_january2024/content/data-analysis-in-R/r-resources.html#video-tutorials",
     "relUrl": "/content/data-analysis-in-R/r-resources.html#video-tutorials"
-  },"101": {
+  },"100": {
     "doc": "Wrap Up and Next Steps",
     "title": "Wrap-up and Next Steps",
     "content": "Thank you for joining us these past few days! We hope you’ll join CRDDS for future training opportunities as you explore these ideas further. For more on CRDDS education and training activities, please see here. Please also check follow our events calendar, which is regularly updated. ",
     "url": "http://localhost:4000/RDC_january2024/content/wrap-up.html#wrap-up-and-next-steps",
     "relUrl": "/content/wrap-up.html#wrap-up-and-next-steps"
-  },"102": {
+  },"101": {
     "doc": "Wrap Up and Next Steps",
     "title": "Wrap Up and Next Steps",
     "content": " ",

@@ -51,7 +51,7 @@ Colorado State University Libraries
 | 10:30-11:15| [Data Discovery](content/finding-data.html)| Liz Novosel
 | 11:15-12:00| [Data Ethics](content/data-ethics.html)| Nickoal Eichmann-Kalwara and Katerina Allmendinger
 | 12:00-12:55| Break|
-| 1:00-2:15| [Data Publishing](content/data-publishing-CU-scholar.html)| Andrew Johnson and Melissa Cantrell
+| 1:00-2:15| [Data Publishing](content/data-publishing-CU-scholar.html)| Melissa Cantrell and Andrew Johnson
 | 2:15 to 3:30| [Data Management](content/data_management.html)|Mara Sedlins
 |3:30 to 3:45|Break|
 | 3:45 to 4:45| [Interdisciplinary Tools Tour](content/interdisciplinary-tour.html)| Nickoal Eichmann-Kalwara
