@@ -20,7 +20,7 @@ This session will introduce interdisciplinary data tools to support your work ac
 
 ## Presentation
 
-If you’d like to access the presentation slide-deck in its own window, please click [here](https://docs.google.com/presentation/d/19xYGa8xPxNUxa77gAWJk23ryxdai7UUHXtvn16ulT5w/edit?usp=sharing)
+If you’d like to access the presentation slide-deck in its own window, please click [here](https://docs.google.com/presentation/d/19xYGa8xPxNUxa77gAWJk23ryxdai7UUHXtvn16ulT5w/view)
 
 <iframe src="https://docs.google.com/presentation/d/19xYGa8xPxNUxa77gAWJk23ryxdai7UUHXtvn16ulT5w/view" style="width: 800px; height: 2800px;" frameBorder="0"></iframe>
 
