@@ -9,26 +9,21 @@ nav_order: 1.502
 
 ## Instructor
 
-Nickoal Eichmann-Kalwara\
+Nickoal Eichmann-Kalwara
+Katerina Allmendinger
 University of Colorado Boulder Libraries
 
 ## Session Synopsis
 
-This presentation will review strategies and resources that will help you to discover secondary research that is relevant to your research interests and needs. 
+This presentation will introduce questions and concerns around data ethics. 
 
 ## Presentation
 
-If you'd like to access the presentation slide-deck in its own window, please click [here](finding_data/finding_data.pdf).
+If you'd like to access the presentation slide-deck in its own window, please click [here](https://docs.google.com/presentation/d/12aTJPIeqKStUebtxAWsC2WhNgfvcsneetizKpjustn8/edit?usp=sharing).
 
-<iframe src="finding_data/finding_data.pdf" style="width: 800px; height: 2800px;" frameBorder="0"></iframe>
+<iframe src="https://docs.google.com/presentation/d/12aTJPIeqKStUebtxAWsC2WhNgfvcsneetizKpjustn8/edit?usp=sharing" style="width: 800px; height: 2800px;" frameBorder="0"></iframe>
 
-## Activity
 
-* [Activity](https://bit.ly/finddataactivity)
-
-## Additional Resources
-
-* [Finding Data Libguide](https://libguides.colorado.edu/findingdatasets/2023/databootcamp?preview=15c198edbf8329a7d57d0bfc8d5aca09)
 
 
 
