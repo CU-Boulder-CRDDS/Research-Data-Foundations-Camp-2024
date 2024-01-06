@@ -16,7 +16,7 @@ University of Colorado Boulder Libraries
 
 ## Session Synopsis
 
-This session will introduce interdisciplinary data practices and research lifecycles, explore types and applications of humanities and qualitative data, and and discuss the role of mixed-methods approaches in data-intensive research. 
+This session will introduce interdisciplinary data tools to support your work across the research data lifecycle. 
 
 ## Presentation
 
