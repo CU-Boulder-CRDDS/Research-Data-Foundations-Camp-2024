@@ -19,9 +19,9 @@ This presentation will introduce questions and concerns around data ethics.
 
 ## Presentation
 
-If you'd like to access the presentation slide-deck in its own window, please click [here](https://docs.google.com/presentation/d/12aTJPIeqKStUebtxAWsC2WhNgfvcsneetizKpjustn8/edit?usp=sharing).
+If you'd like to access the presentation slide-deck in its own window, please click [here](https://docs.google.com/presentation/d/12aTJPIeqKStUebtxAWsC2WhNgfvcsneetizKpjustn8/view).
 
-<iframe src="https://docs.google.com/presentation/d/12aTJPIeqKStUebtxAWsC2WhNgfvcsneetizKpjustn8/edit?usp=sharing" style="width: 800px; height: 2800px;" frameBorder="0"></iframe>
+<iframe src="https://docs.google.com/presentation/d/12aTJPIeqKStUebtxAWsC2WhNgfvcsneetizKpjustn8/view" style="width: 800px; height: 2800px;" frameBorder="0"></iframe>
 
 
 
