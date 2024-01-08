@@ -21,7 +21,7 @@ This session provides a primer on using R and R Studio for data-based research.
 
 ### R and R Studio Installation
 
-For instructions on how to download R and R Studio, please see the following: [https://posit.co/download/rstudio-desktop/#download](https://posit.co/download/rstudio-desktop/#download).
+For instructions on how to download R and R Studio, please see the following: [https://posit.co/download/rstudio-desktop/#download](https://posit.co/download/rstudio-desktop/#download). If it is not possible to install the software on your computer, please create a [free Posit Cloud account](https://posit.cloud/plans/free). Log in to your account and upload all the code and data files provided on this page.  Run the session packages installation script as described below, in the **Session Packages** section. 
 
 ### Session data
 
