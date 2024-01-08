@@ -6,10 +6,32 @@ nav_order: 1
 # January 2024 Research Data Camp
 Sponsored by the [Center for Research Data and Digital Scholarship (CRDDS)](https://www.colorado.edu/crdds/) and [Colorado State University Libraries](https://www.colostate.edu)
 
-## Coordinators
+## Instructors and Organizers
+
+Katerina Allmendinger (she/hers)\
+Success and Engagement Librarian\
+University of Colorado Boulder Libraries\
+[katerina.allmendinger@colorado.edu](mailto:katerina.allmendinger@colorado.edu)
+
+Melissa Cantrell\
+Scholarly Communication Librarian\
+Assistant Professor\
+University of Colorado Boulder Libraries
 
 Nickoal Eichmann-Kalwara (she/hers)\
 Digital Scholarship Librarian\
+Associate Professor\
+Center for Research Data and Digital Scholarship\
+University of Colorado Boulder Libraries
+
+Ellery Galvin (she/hers)\
+PhD Student, Applied Mathematics\
+Statistics Consultant, Center for Research Data and Digital Scholarship\
+[elga3498@colorado.edu](mailto:elga3498@colorado.edu)
+
+Andrew Johnson\
+Head of Data and Scholarly Communication Services\
+Associate Professor\
 Center for Research Data and Digital Scholarship\
 University of Colorado Boulder Libraries
 
@@ -18,8 +40,9 @@ Data Librarian\
 Center for Research Data and Digital Scholarship\
 University of Colorado Boulder Libraries
 
-Liz Novosel\
+Liz Novosel (she/hers)\
 Computer Science, Mathematics and Social Sciences Librarian\
+Assistant Professor\
 University of Colorado Boulder Libraries
 
 Kim Popetz\
@@ -33,9 +56,14 @@ Center for Research Data and Digital Scholarship
 University of Colorado Boulder Libraries  
 [Aditya.Ranganath@colorado.edu](mailto:Aditya.Ranganath@colorado.edu)
 
-Mara Sedlins\
+Mara Sedlins (she/hers)\
 Data Management Specialist\
 Colorado State University Libraries
+
+Phil White\
+Earth Sciences Librarian\
+Associate Professor\
+University of Colorado Boulder Libraries
 
 Kevin Worthington\
 Maps and GIS Data Specialist\
