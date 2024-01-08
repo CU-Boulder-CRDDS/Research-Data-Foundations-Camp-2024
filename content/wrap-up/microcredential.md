@@ -6,19 +6,19 @@ nav_order: 1
 ---
 # Research Data Camp Microcredential
 
-The goal of the Research Data Bootcamp Microcredential is to provide learners with an opportunity to demonstrate literacy in:
+The goal of the Research Data Camp Microcredential is to provide learners with an opportunity to demonstrate literacy in:
 
 * R **OR** Python programming for data analysis
 * Critical evaluation of existing data sets and data approaches
 
 To earn the microcredential certifying literacy in these areas, learners must complete the following:
 
-* Attend **all three days** of the Research Data Bootcamp
-* Complete a final project (described below) that demonstrates Bootcamp-specific knowledge and skills  
+* Attend **all three days** of the Research Data Camp
+* Complete a final project (described below) that demonstrates specific knowledge and skills taught at the Research Data Camp
 
 ## Final Project
 
-**The final project will be due by June 30th; to submit the project, push your project code to a dedicated GitHub repository, and send us a link to the repository.**
+**The final project will be due by March 31, 2024; to submit the project, push your project code to a dedicated GitHub repository, and send us a link to the repository.**
 
 Final projects will consist of a portfolio of work hosted on a GitHub repository (you are also encouraged to publish your portfolio materials via GitHub pages; see below). Completed microcredential project portfolios must include the following elements:
 
@@ -41,7 +41,7 @@ However, you are **not** required to publish your code via GitHub Pages. It is p
 
 ## What You Will Receive
 
-If you complete and submit the microcredential project, you will receive a digital certificate that officially certifies your participation in the Bootcamp, and your completion of the associated project. This certificate will include a link to the repository containing your project materials; this will allow those viewing the microcredential (for example, future employers, supervisors, or collaborators) to verify your familiarity with the Bootcamp's core competencies.
+If you complete and submit the microcredential project, you will receive a digital certificate that officially certifies your participation in the Research Data Camp, and your completion of the associated project. This certificate will include a link to the repository containing your project materials; this will allow those viewing the microcredential (for example, future employers, supervisors, or collaborators) to verify your familiarity with the Camp's core competencies.
 
 ## Examples
 
@@ -54,7 +54,7 @@ To give you a sense of the nature and scope of a possible project, consider the 
 
 ## Final Project Tips
 
-1. **This does not have to be perfect!** We are looking for demonstrated literacy and understanding of the concepts and discussions through the Bootcamp.
+1. **This does not have to be perfect!** We are looking for demonstrated literacy and understanding of the concepts and discussions through the Research Data Camp.
 
 2. **We are here to help!** Please join the end-of-day clinics or reach out to us if you have any questions or are struggling with any aspect of the boot camp or microcredential. Peer support and feedback is an integral part of data work.
 
