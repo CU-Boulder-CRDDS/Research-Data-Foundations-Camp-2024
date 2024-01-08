@@ -44,6 +44,7 @@ Liz Novosel (she/hers)\
 Computer Science, Mathematics and Social Sciences Librarian\
 Assistant Professor\
 University of Colorado Boulder Libraries
+[elizabeth.novosel@colorado.edu](mailto:elizabeth.novosel@colorado.edu)
 
 Kim Popetz\
 Event and Outreach Coordinator\
