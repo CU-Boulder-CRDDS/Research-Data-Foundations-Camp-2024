@@ -56,7 +56,7 @@ To give you a sense of the nature and scope of a possible project, consider the 
 
 1. **This does not have to be perfect!** We are looking for demonstrated literacy and understanding of the concepts and discussions through the Research Data Camp.
 
-2. **We are here to help!** Please join the end-of-day clinics or reach out to us if you have any questions or are struggling with any aspect of the boot camp or microcredential. Peer support and feedback is an integral part of data work.
+2. **We are here to help!** Please reach out if you'd like assistance with your microcredential project. 
 
 3. **Explore relevant online resources** In addition to reaching out to us for help, we also encourage you to take this opportunity to troubleshoot possible problems by seeking help from online resources and documentation relevant to R and Python. These resources are substantial, and an important part of the learning process involves self-directed troubleshooting using these resources.
 
