@@ -1,0 +1,164 @@
+I"]<h1 id="january-2024-research-data-camp">January 2024 Research Data Camp</h1>
+<p>Sponsored by the <a href="https://www.colorado.edu/crdds/">Center for Research Data and Digital Scholarship (CRDDS)</a> and <a href="https://www.colostate.edu">Colorado State University Libraries</a></p>
+
+<h2 id="coordinators">Coordinators</h2>
+
+<p>Nickoal Eichmann-Kalwara (she/hers)<br />
+Digital Scholarship Librarian<br />
+Center for Research Data and Digital Scholarship<br />
+University of Colorado Boulder Libraries</p>
+
+<p>Matthew Murray (he/they)<br />
+Data Librarian<br />
+Center for Research Data and Digital Scholarship<br />
+University of Colorado Boulder Libraries</p>
+
+<p>Liz Novosel<br />
+Computer Science, Mathematics and Social Sciences Librarian<br />
+University of Colorado Boulder Libraries</p>
+
+<p>Kim Popetz<br />
+Event and Outreach Coordinator<br />
+Center for Research Data and Digital Scholarship<br />
+University of Colorado Boulder Libraries</p>
+
+<p>Aditya (Adi) Ranganath (he/his)<br />
+Data Librarian<br />
+Center for Research Data and Digital Scholarship<br />
+University of Colorado Boulder Libraries<br />
+<a href="mailto:Aditya.Ranganath@colorado.edu">Aditya.Ranganath@colorado.edu</a></p>
+
+<p>Mara Sedlins<br />
+Data Management Specialist<br />
+Colorado State University Libraries</p>
+
+<p>Kevin Worthington<br />
+Maps and GIS Data Specialist<br />
+Colorado State University Libraries</p>
+
+<h2 id="schedule">Schedule</h2>
+
+<h3 id="tuesday-january-9">Tuesday, January 9</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Time</th>
+      <th>Content</th>
+      <th>Presenter(s)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>10:00 to 10:25</td>
+      <td><a href="content/introduction.html">Welcome and Introduction</a></td>
+      <td>Adi Ranganath</td>
+    </tr>
+    <tr>
+      <td>10:30-11:15</td>
+      <td><a href="content/finding-data.html">Data Discovery</a></td>
+      <td>Liz Novosel</td>
+    </tr>
+    <tr>
+      <td>11:15-12:00</td>
+      <td><a href="content/data-ethics.html">Data Ethics</a></td>
+      <td>Nickoal Eichmann-Kalwara and Katerina Allmendinger</td>
+    </tr>
+    <tr>
+      <td>12:00-12:55</td>
+      <td>Break</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>1:00-2:15</td>
+      <td><a href="content/data-publishing-CU-scholar.html">Data Publishing</a></td>
+      <td>Melissa Cantrell and Andrew Johnson</td>
+    </tr>
+    <tr>
+      <td>2:15 to 3:30</td>
+      <td><a href="content/data_management.html">Data Management</a></td>
+      <td>Mara Sedlins</td>
+    </tr>
+    <tr>
+      <td>3:30 to 3:45</td>
+      <td>Break</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>3:45 to 4:45</td>
+      <td><a href="content/interdisciplinary-tour.html">Interdisciplinary Tools Tour</a></td>
+      <td>Nickoal Eichmann-Kalwara</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="wednesday-january-10">Wednesday, January 10</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Time</th>
+      <th>Content</th>
+      <th>Presenter(s)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>10:00 to 12:00</td>
+      <td><a href="content/git_github.html">GitHub Pages</a></td>
+      <td>Phil White</td>
+    </tr>
+    <tr>
+      <td>12:00 to 1:00</td>
+      <td>Break</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>1:00 to 4:45</td>
+      <td><a href="content/data-analysis-in-R.html">R for Empirical Research</a></td>
+      <td>Ellery Galvin</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="thursday-january-11">Thursday, January 11</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Time</th>
+      <th>Content</th>
+      <th>Presenters(s)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>10:00 to 12:00</td>
+      <td><a href="content/data-analysis-in-python/python_foundations.html">Python Fundamentals</a></td>
+      <td>Kevin Worthington</td>
+    </tr>
+    <tr>
+      <td>12:00 to 12:55</td>
+      <td>Break</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>1:00 to 3:30</td>
+      <td><a href="content/data-analysis-in-python/python_data_analysis.html">Data Analysis in Python</a></td>
+      <td>Kevin Worthington</td>
+    </tr>
+    <tr>
+      <td>3:30 to 3:45</td>
+      <td><a href="content/wrap-up.html">Conclusion and Wrap-Up</a></td>
+      <td>Adi Ranganath</td>
+    </tr>
+    <tr>
+      <td>3:45 to 5:00</td>
+      <td>Optional Office Hours</td>
+      <td>CRDDS Team</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><em>Actual schedule may vary depending on group needs; all times refer to Mountain Standard Time (MST)</em></p>
+:ET

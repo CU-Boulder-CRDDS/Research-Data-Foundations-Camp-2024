@@ -8,7 +8,7 @@ nav_order: 3
 
 We are committed to providing a welcoming and supportive environment for all people, regardless of background or identity. As such, we do not tolerate behavior that is disrespectful to our teachers or learners or that excludes, intimidates, or causes discomfort to others. We do not tolerate discrimination or harassment based on characteristics that include, but are not limited to, gender identity and expression, sexual orientation, disability, physical appearance, body size, citizenship, nationality, ethnic or social origin, pregnancy, familial status, veteran status, genetic information, religion or belief (or lack thereof), membership of a national minority, property, age, education, socio-economic status, technical choices, and experience level.
 
-In order to foster a positive and professional learning environment, we encourage the following kinds of behaviors in all Bootcamp-related activities and interactions:
+In order to foster a positive and professional learning environment, we encourage the following kinds of behaviors in all Research Data Camp-related activities and interactions:
 
 * Use welcoming and inclusive language
 * Be respectful of different viewpoints and experiences
@@ -33,6 +33,6 @@ insults or put downs
 publication of private communication without consent
 
 
-Bootcamp participants are required to adhere to this Code of Conduct in all Bootcamp-related activities. If you believe someone has this Code of Conduct in any way, please contact one of the Bootcamp Coordinators. CRDDS reserves the right to expel any participant from the Bootcamp for a Code of Conduct violation.
+Participants are required to adhere to this Code of Conduct in all Camp-related activities. If you believe someone has this Code of Conduct in any way, please contact one of the Research Data Camp Coordinators. CRDDS reserves the right to expel any participant from the Camp for a Code of Conduct violation.
 
 This Code of Conduct has been adapted from the Carpentries' [Code of Conduct](https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html). 

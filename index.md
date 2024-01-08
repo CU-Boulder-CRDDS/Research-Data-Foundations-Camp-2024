@@ -8,7 +8,7 @@ Sponsored by the [Center for Research Data and Digital Scholarship (CRDDS)](http
 
 ## Coordinators
 
-Nickoal Eichmann-Kalwara\
+Nickoal Eichmann-Kalwara (she/hers)\
 Digital Scholarship Librarian\
 Center for Research Data and Digital Scholarship\
 University of Colorado Boulder Libraries
@@ -62,7 +62,7 @@ Colorado State University Libraries
 | --- | ---|----|
 | 10:00 to 12:00|[GitHub Pages](content/git_github.html)| Phil White|
 | 12:00 to 1:00 | Break
-| 1:00 to 4:45 |[R for Empirical Research](content/data-analysis-in-R.html)|Ellery Galvin
+| 1:00 to 4:45 |[Data Analysis in R](content/data-analysis-in-R.html)|Ellery Galvin
 
 ### Thursday, January 11
 

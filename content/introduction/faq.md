@@ -6,7 +6,7 @@ nav_order: 5
 ---
 # Frequently Asked Questions (FAQ)
 
-As the Bootcamp proceeds, please note any of your questions in the Zoom chat. If we note a pattern of recurring questions, we will attempt to address those questions on this page, which will be preserved as a resource for future learners.
+As the Research Data Camp proceeds, please note any of your questions in the Zoom chat. If we note a pattern of recurring questions, we will attempt to address those questions on this page, which will be preserved as a resource for future learners.
 
 **I'm trying to unzip the file for the python session but getting an inappropriate file or format error**
 
