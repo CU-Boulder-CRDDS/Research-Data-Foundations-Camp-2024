@@ -8,8 +8,9 @@ has_children: false
 
 ## R Lesson Plan
 
-If you'd like to access the presentation slide-deck in a separate window, please click [here](presentation_materials/nordstrom_R.pdf). Click the blue button below to download the associated R script: 
+The lesson plan is based on notes and exercises prepared by the instructor. Please click the blue buttons below to download these materials. Solutions to the exercises will be posted after the conclusion of the workshop. 
 
-[Download Script](presentation_materials/nordstrom_script.R){: .btn .btn-blue }. 
+[Download Notes](presentation_materials/notes.Rmd){: .btn .btn-blue }. 
 
-<iframe src="presentation_materials/nordstrom_R.pdf" style="width: 800px; height: 2800px;" frameBorder="0"></iframe>
+[Download Exercises](presentation_materials/exercises.Rmd){: .btn .btn-blue }. 
+

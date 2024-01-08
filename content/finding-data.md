@@ -19,9 +19,7 @@ This presentation will review strategies and resources that will help you to dis
 
 ## Presentation
 
-If you'd like to access the presentation slide-deck in its own window, please click [here](finding_data/finding_data.pdf).
-
-<iframe src="finding_data/finding_data.pdf" style="width: 800px; height: 2800px;" frameBorder="0"></iframe>
+Please click [here](https://docs.google.com/presentation/d/1-zFLGsOX5RsEsY7C6bFfqYh6S7OniyFSQneAewZL5-k/edit?usp=sharing) for the presentation slides. They will also be posted on this page after the session. 
 
 ## Activity
 

@@ -1,0 +1,664 @@
+
+## Hello World
+- `print` is called a *function*.  Many of the tools we will use are all *functions* built by someone else.
+- `"Hello World!"` is called a *string*.  A *string* is a kind of data made up of text.
+- Every function is *called* by typing out: `function.name( argument )`.  In our first program above, `function.name` is the word `print` and `argument` is the *string* `"Hello World"`.   
+- A *string* is a data type that holds *characters*.  R knows you are using a *string* if you enclose some *characteris* in *quotes*.  *Characters* can be letters, numbers, symbols, or most things you can type on your keyboard.
+
+## Calculator
+```{r}
+(2 + 3) * 5
+2^3
+2^3 / 3
+```
+
+## Variables
+- Programming languages are *languages*.
+- *Variables* have expressive names and values that they represent.  
+- To create a variable, we use the *assignment operator*,  <-
+
+
+```{r}
+# Find the number of hair strands in this room
+number.hair.strands.each <- 10^4
+number.people <- 2
+total.hair <- number.hair.strands.each * number.people
+
+# 3 <- 19 
+```
+
+*Exercise: Variables*
+
+
+```{r}
+x <- "x"
+y <- "y"
+z <- x
+x <- "xx"
+z
+```
+
+- Variables can be reassigned to new values.
+- Variables can be assigned to other variables, and they permanently keep the value at the time of assignment.
+
+## Strings
+
+```{r}
+"ellery" + "galvin"
+```
+
+- A string is non-numeric.  
+- The + symbol is an operator. 
+- It takes two arguments, one on each side so it is called binary
+- R is saying that you tried to add up two things that aren't numbers.  So it threw an error.
+
+- `paste0` , another builtin R function, is helpful if you want to combine strings.  Let's look at the documentation.
+
+```{r}
+# help(paste0)
+paste0("where","ever", 2)
+```
+
+- The function description is written in plain text.  What does it do?
+- Usage shows the name of the function, followed by its arguments (in parentheses).  
+- ... means that you can provide lots of *unnamed* arguments.
+- paste0 has two named arguments, collapse and recycle.     
+- `collapse=NULL` means that if you don't specify the argument, it is automatically set to NULL, which is a special R keyword literally meaning nothing.  
+- The arguments section describes what the arguments mean, and what the function is expecting.
+
+
+## Vectors 
+
+- Computers are most helpful when the same operation must be done many times.
+- Vectors are an ordered sequence of R objects.
+- Vector arithmetic is elementwise and builtin
+
+```{r}
+class.first.names <- c("Alfred", "Grace", "T")
+class.last.names <- c("Packer", "Hopper", "Swift")
+# class.names <- paste(class.first.names class.last.names)
+class.names <- paste(class.first.names, class.last.names)
+```
+
+- Most functions in R are *vectorized*
+
+```{r}
+red.apples <- c(2,3,5)
+green.apples <- c(5, 8, 2)
+total.apples <- red.apples + green.apples
+all.apples <- c(red.apples, green.apples)
+them.apples <- red.apples + red.apples
+them.apples <- them.apples * green.apples
+```
+
+- You can reassign a variable to a function of itself.
+- The c function can also concatenate two or more vectors.
+
+```{r}
+c("a", 2, 3)
+as.numeric(c("a", 2, 3))
+c(1,2,3) + c(1,2,3,4)
+c(1,2,3) + c(1,2,3,4,5,6)
+```
+
+- Atomic vectors are always exactly one datatype.
+- NA is R's way of saying, empty value.
+- When vectors of different lengths are added, the operation "wraps around".
+
+*Excercise: Reading documentation* 
+
+- R has lots of built in operations we will learn over time.  
+
+## Indexing
+
+```{r}
+places <- c("tokyo", "bangkok", "dubai", "sydney")
+class(places)
+places[2]
+places[-2]
+places[c(1,3)]
+1:3
+class(1:3)
+class(c(1.1,2.3))
+places[1:3]
+places[1] <- "Tokyo"
+```
+- Selecting elements of a vector is called indexing.
+
+```{r}
+favorite.colors <- c("Megan" = "blue", "Andrew" = "red", "Carrie" = "purple")
+favorite.colors["Andrew"]
+favorite.colors[-"Andrew"]
+favorite.colors[-2]
+populations <- c(40.8, 10.5, 3.5, 5.2)
+names(populations) <- places
+names(populations)
+```
+
+## Boolean values
+
+- R understands the difference between right and wrong, true and false.  They are called booleans.
+```{r}
+FALSE
+TRUE
+TRUE == false
+TRUE == FALSE
+FALSE == FALSE
+!FALSE
+-1 > 0
+2 < 3 < 4
+TRUE < 4
+TRUE < 1
+TRUE == 1
+FALSE == 0
+!1
+TRUE < FALSE
+2 >= 2
+3 >= 2
+1.01 <= 1.02
+"a" < "b"
+"a" < "A"
+"A" < "b"
+"ellery" < "cecilia"
+"llama" >= "ladel"
+"2.01" > "2"
+"2" < 3
+```
+
+- We can string together comparison operators
+
+```{r}
+2 < 1 && 0 < 1
+2 < 1 || 0 < 1
+1 < 2 && 0 < 1
+2 < 1 || 0 < 1 && "a" < "b"
+```
+
+- Like arithmetic, comparison operators are vectorized
+
+```{r}
+1:5
+1:5 < 3
+seq(1,10,2)
+1:5 < seq(1,10,2)
+c(TRUE, FALSE) || c(FALSE, FALSE)
+c(TRUE, FALSE) | c(FALSE, FALSE)
+```
+
+**exercise: Boolean values**
+
+
+## If statements 
+
+- Sometimes, when we write *procedural code*, we often want to let the computer decide what to compute based upon some condition.
+
+```{r}
+name <- "Matthew"
+if (name == "Aksana") {
+    print( paste0("Hello ", name, ", it's nice to see you again.") )
+} else {
+    print( paste0("Greetings ", name, ", I don't believe we've met before!"))
+} 
+```
+
+- The else statement is optional.  We can simply do or not do what's inside the if.
+
+```{r}
+name <- c("Matthew", "Aksana")
+if (name == "Aksana") {
+    print( paste0("Hello ", name, ", it's nice to see you again.") )
+} else {
+    print( paste0("Greetings ", name, ", I don't believe we've met before!"))
+} 
+```
+
+- The `if` statement only works for a single boolean value.  The vectorized version is the `ifelse` function.  Let's look at the documentation
+
+```{r}
+name <- c("Matthew", "Aksana")
+
+ifelse(
+    name == "Aksana",  # If the name is Aksana
+    paste0("Hello ", name, ", it's nice to see you again.") , # Welcome back Aksana.
+    paste0("Greetings ", name, ", I don't believe we've met before!") # Introduce other.
+) # Returns a vector with one entry per name
+```
+
+*exercise: ifelse*
+
+## Writing custom functions
+- So far, we've used functions that are built in to R.  You can write them yourself too!
+```{r}
+function.name <- function (argument1, argument2) {
+    output <- argument1 * argument2
+    output <- output^2
+    return(output)
+}
+function.name(2,3) # (2*3)^2 = 36
+```
+
+- We assign a function object (denoted by the keyword `function`) to the name `function.name`.  Inside the parentheses, we list the arguments to our function.  Inside the curly braces, we write computations.  We end the function with the   `return` function, which indicates that the result will be equal to output.
+- Note that any variables used inside the function are *local* and cannot be referred to outside the function.
+
+```{r}
+output
+```
+
+- What happens if I try to modify the argument?
+
+```{r}
+whole <- 4
+
+halver <- function (number) {
+    number <- number / 2
+    return (number)
+}
+
+halver(whole)
+whole
+```
+
+- What if I use a name for the argument that is already defined outside the function?
+
+```{r}
+whole <- 4
+
+halver <- function (whole) {
+    whole <- whole / 2
+    return (whole)
+}
+
+halver(9)
+#whole
+```
+
+- Argument names are *local* to the function.  This is a fantastic feature.
+- You can, however, reference variables that are assigned outside the function
+
+```{r}
+whole <- 4
+
+halver <- function (number) {
+    number <- whole / 2
+    return (number)
+}
+
+halver(6)
+```
+
+- Even though the function is already defined, it still refers to that variable, so if I change the value of the variable
+
+```{r}
+whole <- 12
+halver(6)
+```
+
+- Programming this way can create confusing bugs, and I generally recommend against it.
+- Functions can even call themselves.  This behavior is called recursion, and we won't talk much about it, but I'll use it now to illustrate a way to stop your program from running when there's a bug.
+
+```{r}
+buggy <- function(word) {
+    print(word)
+    buggy(paste(word,word))
+}
+buggy("help me,")
+```
+
+- Writing functions should often be your default.  
+- Modularize your code, and debug each individual module until you're confident it works as you expect.  Then string together your modules to create more complex programs.  
+- A good function is only a few lines long, and it's name summarizes it's description.
+- Write comments with your function so you can remember what it does and how it does it.
+- Functions are also reusable.  We often want to accomplish the same task many times on different data.  If you write out the code every time, it makes your code harder to read.  If your code is in a function, you can change the code in your function, and it automatically works everywhere in your code the function is used.
+- Functions organize your code making it easier to read.
+
+*excercise: data scaling* 
+
+---
+
+## Packages
+- Packages are collections of functions and data that someone else programmed for you.  Don't reinvent the wheel!
+
+```{r}
+# install.packages("tidyverse")
+library("tidyverse")
+```
+
+- `tidyverse` helps us with data cleaning, wrangling and visualization.
+- It is a wrapper around many smaller packages.
+- Conflicts occur when you load in functions from two different packages that have the same name.  
+- If you wish to specify which version of filter to use, you must use the package name prefix.  `dplyr::` or `stats::` before `filter`.  If you just use `filter`, R will call `dplyr::filter` because it was loaded most recently (masks).
+
+
+
+
+## Installing packages
+*exercise: installing packages* 
+
+
+
+## Dataframes
+- Let's see some ways of viewing the data nicely.
+
+```{r}
+df
+str(df)
+glimpse(df)
+head(df)
+tail(df)
+nrow(df)
+dim(df)
+names(df)
+summary(df)
+View(df)
+df$year
+df$births
+df[2]
+df[1:3]
+df[1:3,3]
+df[df$births > 10000,]
+```
+- Integer, date, and ordered factor datatypes.
+- Dates are a special data type that understands how dates work.
+
+```{r}
+date()
+arbitrary.day <- ymd("2023-12-22")
+following.day <- arbitrary.day + 1
+arbitrary.day + 365
+```
+
+```{r}
+class(df$day_of_week)
+```
+
+- Factors are a special datatype for categorical data.  When you use them, R automatically understands how to do regression and other statistical testing.  
+
+```{r}
+factor(c("small", "small", "medium"), levels=c("small", "medium", "large"))
+as.numeric(df$day_of_week)
+```
+
+- Factors can have orderings, like the days of the week or sizes.  Strings don't have this feature.
+- Factors also store all the possible levels, even if that level doesn't appear in the data.
+
+## Tidyverse
+- How do we select columns in the dataframe?
+```{r}
+select(df, year, month, date_of_month)
+select(df, -year)
+```
+
+- We can also filter with conditional statements
+```{r}
+filter(df, year >= 2010)
+filter(df, year >= 2010, day_of_week = "Sat")
+filter(df, year >= 2010, day_of_week == "Sat")
+arrange(df, births)
+arrange(df, desc(births))
+tail(arrange(select(filter(df, year >= 2010, day_of_week == "Sat"), -date), desc(births)))
+```
+
+-  Getting kinda hard to read?  Introducing the pipe.
+```{r}
+df %>%
+    select(-date) %>%
+    filter(year >= 2010, day_of_week == "Sat") %>%
+    arrange(desc(births)) %>%
+    tail()
+```
+
+
+## Cleaning data 
+*exercise: cleaning data* 
+
+
+## Grouping
+- Grouping allows us to summarize the data in interesting ways.
+
+
+```{r}
+df %>% 
+    group_by(day_of_week) %>%
+    filter(births == max(births)) %>%
+    ungroup()
+```
+- `max` gets applied to the `births` column once for each group, and births is equal to its max in each group exactly once.  Since there are 7 groups, one for each day of the week, the resulting dataframe has seven rows.
+
+```{r}
+df %>%
+    group_by(day_of_week) %>%
+    summarize(max.births = max(births))
+
+```
+- Summarize allows us to reduce each group to a single value.  Notice that summarize returns a new dataframe with each group, and the new column we created. The other columns are gone.
+- You can do similar operations arbitrary functions in place of `max`.
+
+## Grouping
+*exercise: grouping* 
+
+
+
+## Relabeling data
+```{r}
+label.month <- function(month) {
+    switch( month,
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr",
+        "May",
+        "Jun",
+        "Jul",
+        "Aug",
+        "Sep",
+        "Oct",
+        "Nov",
+        "Dec"
+    )
+}
+label.month(5)
+label.month(c(1,2,3))
+```
+
+- Our function only works on single inputs.  We need a vectorized version.
+
+
+*Exercise: relabel*
+
+## Mutation
+- We've seen sorting, filtering, and summarizing.  What's the equivalent to formulas in Excel?
+- Suppose I want to label the months with strings instead of numbers.
+- Now we can apply our function to a column in our dataframe with the `mutate` function.
+
+```{r}
+df %>%
+    mutate(month.names = label.months(month))
+df %>%
+    mutate(month = label.months(month))
+```
+
+
+*exercise: mutation* 
+
+- We only have half the data.  There are two datasets of birthdays in our fivethirtyeight package.
+- How to combine them?
+
+
+## Joining data
+*exercise: joining data*
+
+
+## Grammar of graphics
+- Let's have a taste of visualization with `ggplot`.
+- Suppose I'm interested in the number of births over time.
+
+```{r ggplot}
+# install.packages("ggplot2")
+library(ggplot2)
+```
+
+```{r}
+# One line at a time
+# Note df vs df.full if doing exercise above
+births.time <- ggplot(data = df, mapping = aes(x = date, y = births, color= day_of_week)) + 
+    geom_point(size = 4, alpha = 0.5) + 
+    geom_smooth(method = "loess") + 
+    theme_bw() +
+    labs(
+        x = "Date",
+        y = "Births Count",
+        title = "Births Over Time",
+        color = "Day of Week"
+    )
+```
+
+- There are many other geoms to choose from.
+- R also allows you to plot data on geographical maps or images, but we won't cover that here.
+
+*exercise: grammar of graphics*
+
+
+
+## t test
+
+- Now suppose we wish to conduct a statistical test to determine whether the difference in births in warmer / cooler months is of significance.
+
+```{r}
+# install.packages("rstatix")
+library(rstatix)
+```
+
+- rstatix supports the same piping with dataframes that tidyverse does.
+
+- We would like to perform a t test.  
+
+*exercise: t test*
+
+- How should we interpret this result?  Is statistical significance relevant here?  Depends on the context.  
+- Should we increase staffing at the hospital during warmer months?  Probably not.
+- Do humans instinctually attempt to give birth in the summer?  Perhaps there is higher fertility in the fall and winter?  Maybe we would care.
+- Is the difference caused by the temperature?  Maybe.
+
+
+Break 
+---
+
+## Reading in a csv
+- So far, we saw how to read in data from an R package.  Let's look at how to read in data from a file on your computer.
+- The working directory is the file system location ("e.g. Documents") in which R looks for files when you try to open them.
+
+```{r}
+getwd()
+setwd("/Users/ellery/Documents/education/cu/crdds/datacamp")
+```
+
+- csv files are among the most common data input types.
+- Let's look at the documentation for read.csv
+```{r}
+help(read.csv)
+df <- read.csv("ClimateAndArt_01.csv")
+glimpse(df)
+```
+
+- The web of science is a research tool that aggregates research articals across many journals and helps researchers find and discover research they might be interested in.  
+
+- There are many of these files in the directory that we need to combine.  You could read them all in one by one, but if there were too many to type out we'd need a better solution.  Let's investigate.
+
+## Lists and mapping
+```{r}
+vector.strings <- c("abc", 12.34) # atomic vectors
+class(vector.strings)
+my.first.list <- list("abc", df, 12.34) # any object
+class(my.first.list)
+my.first.list[1]
+my.first.list[[1]]
+my.first.list[c(1,3)]
+my.first.list[[c(1,3)]]
+```
+- Suppose I have a list of items to perform the same operation on.  The `purrr` package is helpful; it's already loaded from tidyverse.  It has a suite of `map` functions.
+```{r}
+help(map)
+str_detect("Bear Peak", "Peak")
+mountains <- c("Bear Peak", "Green Mountain", "South Boulder Peak", "Flagstaff Mountain")
+str_detect(mountains, "Peak")
+searches <- c("Peak", "Mountain")
+str_detect(mountains, searches)
+detect.mountain.name.ending <- function (name.ending) {
+    str_detect(mountains, name.ending)
+}
+map(searches, detect.mountain.name.ending)
+```
+
+- There are other varieties of `map` like `map_df` and `map_vec` that return dataframes and atomic vectors respectively, instead of lists.
+
+*exercise: map*
+
+
+- Previously, we worked with time series and numeric data.  Now we'll look at free text data.
+
+## Text mining and word clouds
+- We'd like to know what kinds of words are in these articles.  For that, we use a wordcloud.  The larger the word in the wordcloud, the more frequent it is in the dataset.  
+
+- Let's look up `wordcloud2`
+```{r}
+library(wordcloud2)
+help(wordcloud2)
+```
+
+- We need to create a sorted dataframe with two columns: word, frequency of word.
+- Many ways to accomplish this, but I'm suggesting the `tm` package.  It allows you to take a dataframe where each row represents a document, and some column represents text to process, and turn it into a matrix where rows = documents, and cols = terms.  It has many common cleaning features built in.  Which we'll take advantage of.
+
+*exercise : term frequency*
+
+
+*exercise : wordcloud*
+
+
+*exercise: text cleaning*
+
+
+*exercise : mapping is useful*
+
+
+
+# Latent Dirichlet allocation
+
+- So far we just have one big word cloud for the whole corpus.  What if we want to more granularly understand what the articles are about?  Are the well defined groups of articles?
+- Latent Dirichlet allocation is an unsupervised machine learning method for topic modeling.  It models every document as a mixture of topics, and every topic as a mixture of words.  The inputs are a collection of documents, and a number of topics.
+- Look at LDA documentation.  This time we need a DocumentTermMatrix instead of a TermDocumentMatrix.
+
+
+*exercise: document term matrix*
+
+*exercise: verify lda*
+
+*exercise: explore topics*
+
+
+
+*exercise : explore terms*
+
+
+- With this kind of modeling, our best guess at the parameters isn't always the best.  
+- In a class about topic modeling, we would learn about using harmonic means to automatically select the best number of topics too.
+- How about producing the most representative documents for each topic?
+
+*exercise: explore documents*
+
+
+## Saving work
+- Knitting allows you to compile your document for easy sharing and viewing with anyone.  It's useful for documenting reports about your work with others.  
+- There are many customization options available for `knitr`, which you can read about in the documentation.  For instance, you can change whether code chunks are included, or just their output.
+- Simple `.R` files are useful if you have large chunks of function definitions or other code you want to run all in one go to get a single output.  You can run `.R` files within other `.R` files, and even within `.Rmd` files.
+
+- If you want to export some of the data you've created for later use, you can use `write.csv` for dataframes, or `ggsave` for `ggplot`s.  In base R, graphics can be saved with graphics devices.  The RStudio interface has a button for saving graphics manually as well.  
+
+```{r}
+getwd()
+setwd("/Users/ellery/Documents/education/cu/crdds/R workshop/data camp")
+write.csv(find.exclusive.documents(wos.lda$documents.topics), "exclusive.documents.csv")
+```
+
+- In general, for any given package producing graphics, you can use a search engine to look up the documentation; they often have dedicated functions built in for it.  These procedures are helpful when code takes a long time to run.  You can save the result and come back to it later so you don't have to run it again.
+- To save a workspace, you can use `save.image` to produce an `RData` file.  In the future, loading the file will put all your R objects back into the workspace as they were when they were saved.  This is the fastest and most efficient option, but these files cannot be opened by any program other than `R`.
+

@@ -9,9 +9,9 @@ nav_order: 1.523
 
 ## Instructor
 
-Scott Nordstrom\
-PhD Student, Ecology and Evolutionary Biology\
-Statistical Consultant, Center for Research Data and Digital Scholarship  
+Ellery Galvin (she/hers)\
+PhD Student, Applied Mathematics\
+Statistics Specialist, Center for Research Data and Digital Scholarship  
 
 ## Introduction
 

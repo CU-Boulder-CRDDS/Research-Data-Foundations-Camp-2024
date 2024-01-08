@@ -1,0 +1,19 @@
+I"5<h2 id="r-and-r-studio-installation">R and R Studio Installation</h2>
+
+<p>For instructions on how to download R and R Studio, please see the following: <a href="https://posit.co/download/rstudio-desktop/#download">https://posit.co/download/rstudio-desktop/#download</a>.</p>
+
+<h2 id="session-data">Session data</h2>
+
+<p>Before beginning the lesson, please download the data to a directory on your computer. Simply click the blue button below:</p>
+
+<p><a href="presentation_materials/wos.zip" class="btn btn-blue">Download Data</a>.</p>
+
+<h2 id="session-packages">Session Packages</h2>
+
+<p>Please make sure to install the R packages that will be used in the lesson before it begins. To do so, please first download the following R Script by clicking on the blue button below:</p>
+
+<p><a href="presentation_materials/setup.R" class="btn btn-blue">Download Package Installation Script</a>.</p>
+
+<p>After opening up the script in R Studio, click the <em>Source</em> button at the top right of the top left panel. This button will run the code in the file. The code installs all the packages needed for the lesson. This process should not take more than 15 minutes; if you encounter any issues, please email the instructor before the lesson at the following address: <a href="mailto:elga3498@colorado.edu">elga3498@colorado.edu</a>.</p>
+
+:ET
