@@ -62,7 +62,7 @@ Data Management Specialist\
 Colorado State University Libraries
 
 Phil White\
-Earth Sciences Librarian\
+Earth, Environment and Geospatial Librarian\
 Associate Professor\
 University of Colorado Boulder Libraries
 
