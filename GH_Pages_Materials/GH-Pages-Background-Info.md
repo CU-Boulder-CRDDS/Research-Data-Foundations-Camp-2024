@@ -49,3 +49,4 @@ First of all, if you're new to Git and GitHub, here are a few helpful resources.
 * ### [Git](https://git-scm.com/)
   - Well, obviously. For the hands on portion of this exercise, you don't need it... but you should install Git anyway if you don't have it.
   - Windows users: Git comes with Git Bash, a Linux-style command prompt (aka "shell" aka "terminal"), which will make life easier.
+  - A good text editor is nice. I recommend Visual Studio Code aka [VS Code](https://code.visualstudio.com/)
