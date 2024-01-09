@@ -20,7 +20,7 @@ I get it!
 gem install jekyll bundler
 ```
 
-- You'll also want a good text editor...  
+- You'll also want a good text editor...  I recommend [Visual Studio Code (VS Code)](https://code.visualstudio.com/)
 
 
 - **Now**, find a theme you like, go to it's GitHub repository then...  

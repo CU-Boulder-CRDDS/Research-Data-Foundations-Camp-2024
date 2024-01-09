@@ -26,11 +26,11 @@ The goal of this workshop is to get you started on GitHub Pages. This is *not* a
 
 | Time | Content
 | --- | ---
-| 1:00 | Introductions
-| 1:05 | Slides: Git/GitHub Background and GH Pages
-| 1:25 | Hands on: Fork it! Spin it! Play!
-| 2:05 | Advanced customization: Themes, running locally, workflows
-| 2:20 | Wrap Up/ Q&A
+| 10:00 | Introductions
+| 10:05 | Slides: Git/GitHub Background and GH Pages
+| 10:30 | Hands on: Fork it! Spin it! Play!
+| 11:15 | Advanced customization: Themes, running locally, workflows
+| 11:45 | Wrap Up/ Q&A
 
 ### Slides  
 <iframe width="625" height="352" frameborder="0" marginheight="0" marginwidth="0" src="slides/GitHub-GH-Pages.html"></iframe> *Click on the slides then press the F key for full screen*
