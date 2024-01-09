@@ -21,10 +21,6 @@ This presentation will review strategies and resources that will help you to dis
 
 Please click [here](https://docs.google.com/presentation/d/1-zFLGsOX5RsEsY7C6bFfqYh6S7OniyFSQneAewZL5-k/edit?usp=sharing) for the presentation slides. They will also be posted on this page after the session. 
 
-## Activity
-
-* [Activity](https://bit.ly/finddataactivity)
-
 ## Additional Resources
 
 * [Finding Data Libguide](https://libguides.colorado.edu/findingdatasets/2023/databootcamp?preview=15c198edbf8329a7d57d0bfc8d5aca09)
