@@ -16,6 +16,8 @@ To earn the microcredential certifying literacy in these areas, learners must co
 * Attend **all three days** of the Research Data Camp
 * Complete a final project (described below) that demonstrates specific knowledge and skills taught at the Research Data Camp
 
+For more on what microcredentials are, and why you should consider earning one, please see this resource from CU Boulder's [Office of the Registrar](https://www.colorado.edu/registrar/faculty-staff/programs/micro-credentials). 
+
 ## Final Project
 
 **The final project will be due by March 31, 2024; to submit the project, push your project code to a dedicated GitHub repository, and send us a link to the repository.**
@@ -61,11 +63,9 @@ To give you a sense of the nature and scope of a possible project, consider the 
 3. **Explore relevant online resources** In addition to reaching out to us for help, we also encourage you to take this opportunity to troubleshoot possible problems by seeking help from online resources and documentation relevant to R and Python. These resources are substantial, and an important part of the learning process involves self-directed troubleshooting using these resources.
 
 ## Turn in Your Final Portfolio Project!
-Use this [Google Survey link](https://docs.google.com/forms/d/e/1FAIpQLScg1zEMAX7CqgimJc53fyBroUagLvjjLPkNMfdR5-8nx0OhcA/viewform?usp=share_link) to turn in your project. 
+Use this [Google Survey link](https://docs.google.com/forms/d/e/1FAIpQLScg1zEMAX7CqgimJc53fyBroUagLvjjLPkNMfdR5-8nx0OhcA/viewform?usp=share_link) to turn in your project. In addition to filling out the form, please also email us with a link to the GitHub page or repository that hosts your project materials. 
 
-Be sure to give us your:
-1. First and last name
-2. Your email (preferably your CU Boulder email but personal email is ok if that's not possible)
-3. A link to your find GitHub page or repository containing your project materials. 
+If you are at CU-Boulder, please send your email to [aditya.ranganath@colorado.edu](mailto:aditya.ranganath@colorado.edu). 
+If you are at Colorado State, please send your email to [kevin.worthington@colostate.edu](mailto:kevin.worthington@colostate.edu). 
 
-Cheers!
+Thank you!
