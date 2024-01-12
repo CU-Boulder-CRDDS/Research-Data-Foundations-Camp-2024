@@ -1,0 +1,552 @@
+## Reading documentation
+
+Check out the documentation for the  `seq` function, and the `sum` function.  Write code that finds the sum of the first 9 odd numbers.
+```{r reading documentation}
+sum(seq(from=1, by=2, length.out=9))
+```
+
+
+
+## Boolean values
+Remember that `TRUE` values are analogous to the number `1`, and `FALSE` values are analogous to the number `0`.  What will happen if we apply the `sum` function to a vector of boolean values?  Look at the documentation for the `length` function, and use it together with `sum` to find the proportion of all cats in the dataset named "Matilda".  The data's a bit sloppy, so be careful to count lower case "matilda" as well.
+
+```{r boolean values}
+ellerys.cats <- c("Matilda", "matilda", "matty", "Maverick", "Mallorie", "Matilda", "Matilda", "Missy", "Matilla", "Matt", "Maxine", "mallory", "matilda", "Max", "matilda", "Maxwell", "Mini", "Matilda", "Matthew", "Madison", "Maive", "matilda", "Mark", "mindy", "Matilda",  "Mandy", "Melville", "Marisha", "matilda", "marissa", "Matilda", "Mable",  "Maureen", "molly", "Matilda", "Matilda", "Moe", "Maha", "Melanie", "Melody", "matilda","Mina", "Manny")
+
+sum( ellerys.cats == "Matilda" | ellerys.cats == "matilda" ) / length(ellerys.cats)
+ellerys.cats[ellerys.cats != "Matilda" & ellerys.cats != "matilda"]
+```
+
+## Ifelse
+
+`ifelse` statements can be composed too.  This can be very valuable for some kinds of data preparation when we wish to categorize numerical values.  Create a composition of `ifelse` functions that outputs "red" if the car is speeding by more than 10 mph, "yellow" if the car is speeding by no more than 10mph, "green" if the car is not speeding, and "reverse" if the car is going in reverse.
+
+```{r ifelse}
+speed.limit <- 60
+red.limit <- speed.limit + 10
+yellow.limit <- speed.limit
+green.limit <- 0
+car.speed <- c(55, 60, 61, 69, -5, 62, 70, 72, 59)
+
+ifelse(
+  car.speed > red.limit, # if car.speed is in the red zone
+  "red", # return "red"
+  ifelse( # else we need to test more conditions
+    car.speed > yellow.limit, # if car.speed is in the yellow (you already know it's less than red)
+    "yellow",
+    ifelse(
+        car.speed > green.limit,
+        "green",
+        "reverse"
+    ) # ... can you finish?
+  )
+)
+```
+
+
+## Writing custom functions
+Write a function that accepts a vector numbers, and divides them all by a number you must determine such that all the values in the vector are between -1 and 1.  This operation is useful when scaling data in preparation for regression or other statistical testing.
+
+I suggest looking up how to find the largest element.  You might be interested in absolute values as well.  When you're finished, test your function on several examples.
+
+```{r}
+infinity.scale <- function (vector) {
+    scalar <- max(abs(vector))
+    return (vector / scalar)
+}
+infinity.scale ( c(-5,1,2,3,4) )
+```
+
+
+## Installing packages
+
+Install a package called `fivethirtyeight` and load it into your namespace.  Find its documentation online and read about some of the datasets it provides.  Save the dataset for birthdays since 2000 to a variable called `df`.
+
+```{r}
+# install.packages("fivethirtyeight")
+library(fivethirtyeight)
+df <- US_births_2000_2014
+```
+
+## Cleaning data
+Verify that every day of every year between 2000 and 2014 is represented in the dataset.  Consider investigating the `unique` function, which you can apply to rows of a dataframe.  How many days should there be from 2000 to 2014?  How many unique dates are there in the dataset?
+
+```{r}
+library(tidyverse)
+df %>% select(date) %>% unique() %>% nrow()
+365 * 11 + 366*4
+```
+
+## Grouping
+Which month has the most births on average?  Is that month consistently popular, or just on average?  Try calculating both the mean and standard deviation.
+
+```{r}
+df %>%
+    group_by(month) %>%
+    summarize( mean.births = mean(births), sd.births = sd(births)) %>%
+    arrange(desc(mean.births))
+```
+
+## Relabeling data
+Use a search engine to discover a vectorized switch statement in R.  Hint: it's likely to be in one of the tidyverse packages.  Read the documentation and write a function called `label.months` that takes a vector of integers between 1 and 12, and returns a vector of corresponding months as strings.
+
+```{r}
+label.months <- function(months) {
+    factor ( case_match(
+        months,
+        1 ~ "Jan",
+        2 ~ "Feb",
+        3 ~ "Mar",
+        4 ~ "Apr",
+        5 ~ "May",
+        6 ~ "Jun",
+        7 ~ "Jul",
+        8 ~ "Aug",
+        9 ~ "Sep",
+        10 ~ "Oct",
+        11 ~ "Nov",
+        12 ~ "Dec"
+    ), levels= c("Jan","Feb","Mar","Apr","May","Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"))
+}
+label.months(5)
+label.months(c(5,6,7))
+```
+
+## Mutation
+Add a column to the birthdays data set that takes the value `TRUE` during warmer months, and `FALSE` during colder months;  call it `is.warmer`.  Check out the `between` function and see if you can use it.
+
+```{r}
+df.warmer <- df %>%
+    mutate(is.warmer = between(month, 4, 9))
+```
+
+
+## Joining data
+Find the other birthdays dataset in fivethirtyeight from the documentation.  Investigate it to make sure it has the same columns.  Notice that the dates overlap.  Find a way to verify that the births column is identical in the overlapping years.
+```{r identical}
+#data()
+df.early <- US_births_1994_2003
+glimpse(df.early)
+overlap.early <- df.early %>%
+    filter(year >= 2000)
+overlap.late <- df %>%
+    filter(year <= 2003)
+all.equal(overlap.early, overlap.late)
+```
+
+
+Think about what has to happen for the computer to combine these two dataframes.  Draw a picture of what you want the resulting dataframe to look like.  What are the columns after you combine them?  How would you handle the births columns?
+```{r join picture}
+df.picture <- data.frame( 
+    year = c(1995, 2001, 2006),
+    month = c(1, 1, 2),
+    date_of_month = c(28,29,28),
+    date = ymd("1995-01-28", "2001-01-29", "2006-02-28"),
+    day_of_week = c(NA, NA, NA),
+    births.early = c(9000, 9580, NA),
+    births.late = c(NA, 10000, 9700)
+)
+```
+
+
+
+There are many kinds of joins between dataframes.  Look up the `full_join` function and read the documentation.  Use it to combine the two dataframes.
+```{r full_join}
+df.late <- df
+df.full <- full_join(df.early, df.late,
+    by = c( 
+        "year",
+        "month", 
+        "date_of_month", 
+        "date", 
+        "day_of_week"), 
+    relationship="one-to-one")
+
+df.full %>% 
+    na.omit() %>%
+    filter(births.x == births.y)
+
+any(is.na(df$births))
+any(is.na(df.early$births))
+```
+
+
+
+We need to create a new column of births equal to the value from either dataframe where they do not overlap, and equal to the mean when they do overlap.  Write a function that performs this operation with any two given vectors.  You will need a way to detect whether each vector contains an `NA` value, which you should look up.  The `ifelse` function will also be helpful.
+```{r ifelse}
+either.or.mean <- function(x , y) {
+    ifelse(is.na(x), y, 
+        ifelse(is.na(y), x, 
+            (x + y)/2))
+}
+```
+
+
+Create a combined dataframe that uses your function and `select` to produce the result.
+
+```{r combined births}
+df.full <- df.full %>%
+    mutate(births = either.or.mean(births.x, births.y)) %>%
+    select(-c(births.x, births.y))
+```
+
+
+## Grammar of graphics
+Are more babies born in warmer months?  In one figure, make a pair of violin plots to answer this question. Use `geom_violin()`.  Be sure to create labels and titles.  
+
+See if you can figure out how to change the x axis so that is says "Warmer" and  "Cooler"; a `scale_x_discrete`. You might also try to assign fills to the violins so that their colors correspond with "Warmer" and "Cooler";  analogously, use the appropriate aesthetic and a `scale_fill_manual` layer.  
+
+Some hints:  
+- `limits` defines the possible values appearing in the data that the scale will show.  In a numerical column, it is numbers.  In a boolean column, it is `TRUE`, `FALSE`.  In a factor column, it is the names of the factors.  `ggplot` will automatically select limits that cover the entire range of data.  But the limits do not have to include all the values that actually appear in the data.  Only the data included in `limits` will appear on the plot. 
+- `breaks` is used together with `labels`.  `breaks` denote values in the data that you wish to indicate on the plot.  i.e. `limits` controls what data appears, and `breaks` controls which data are labeled.  By default, it is the same as `limits`.  
+- By default, each element in `breaks` will be labeled with the data value itself: e.g. if the column contains `TRUE` then the label will be `TRUE`.  If instead you want for all values equal to `TRUE` to be labeled with a different string, you specify it in the `labels` argument, one label to each of the `breaks` in the same order.
+- `values` is used for scales, like color/fill scales, where the data values correspond to some other aesthetic like blue/red or a line thickness.  To each of the `limits`, there should correspond an element of `values` in the same order.
+
+```{r}
+library(ggplot2)
+df.warmer <- df.full %>%
+    mutate(is.warmer = between(month, 4, 9))
+
+ggplot(data = df.warmer, mapping = aes(x = is.warmer, y = births, fill = is.warmer)) + 
+    geom_violin(size = 2, alpha = 0.5) + 
+    scale_x_discrete(limits = c(FALSE, TRUE), labels = c("Cool (Oct - Mar)", "Warm (Apr - Sep)")) + 
+    scale_fill_manual(guide="none", values = c("blue", "red")) + 
+    theme_bw() +
+    labs(
+        x = "Climate",
+        y = "Births Count",
+        title = "More Births in Summer"
+    )
+ggsave("births.warmer.jpg")
+```
+
+
+## Student's t-test
+Use the `t_test` function from the `rstatix` library to compute a comparison between births in warmer and cooler months.  Statistically, all of the default arguments will work for this case as long as you can figure out how to specify the data and the different groups.
+
+```{r}
+library(rstatix)
+
+df.warmer %>% t_test(births ~ is.warmer)
+df.warmer %>% group_by(is.warmer) %>% summarize(means = mean(births))
+```
+
+
+## Reading in files
+1. If you haven't already, make a directory called `datacamp`, and inside it, make another directory called `data`.  
+2. Put the `wos.zip` file available on the datacamp homepage into the `data` directory and double click on it so that it becomes a new directory called `wos`.
+3. Set your working directory to be the `wos` directory. 
+4. Use a search engine to find a way to make a list of all of the files in a directory.  This way you don't have to type every name individually.
+5. Use the `map` function to create a list of dataframes.  One for each csv file.
+6.  Finally, take a look at the `bind_rows` function and use it to combine all the dataframes.  Assign the result to a new variable.  
+```{r}
+getwd()
+setwd("/Users/ellery/Documents/education/cu/crdds/R workshop/data camp/wos")
+wos.csv.files <- list.files()
+wos.dfs <- map(wos.csv.files, read.csv)
+wos.df <- bind_rows(wos.dfs)
+glimpse(wos.df)
+```
+
+
+## First wordcloud
+With our newly formed data, we might wish to visualize the words that appear in the corpus of Abstracts.  This will help us understand what these articles are about.  First we need to create a sorted dataframe with two columns: word, freq.  Where word is a string for each term and freq is the number of times the word occurs across all documents.  
+
+There are several helpful functions in the `tm` (text mining) package.  Below, I provide some code for creating a corpus of text that the `tm` package can understand. 
+```{r corpus}
+library(tm)
+
+# This function converts our dataframe into a corpus object.  The tm package uses this corpus object for other operations."
+prep.corpus <- function(wos.df) {
+    # Rename columns so tm package can understand our data.
+  wos.df.abstract <- wos.df %>%
+    rename(doc_id = UT..Unique.WOS.ID. , text=Abstract, title = Article.Title) %>%
+    select(doc_id, text, title) %>%
+    filter (text != "") # Remove all the articles without an abstract.
+
+  wos.dfs <- DataframeSource(wos.df.abstract)
+  wos.corpus <- Corpus(wos.dfs)
+  return(wos.corpus)
+}
+```
+
+Now we'll use a `Term.Document.Matrix` object to compute the frequency table we need.  This object is a table where each row is a word in our dataset, and each column is the number of times that word appears in a corresponding document.  Here's a function to compute this object.
+
+```{r term document matrix}
+# Description: Convert dataframe into term document matrix.  Use corpus function.
+
+# Input:
+
+# wos.df : the dataframe of web of science articles created above
+
+# min.docs.w.word : require that the terms (words) considered appear in at least this many different documents (articles).  Must be at least 1.  Must be an integer.
+
+# max.docs.w.word : require that the terms (words) considered appear in no more than this many different documents (articles).  Must be at least the minimum.  Set to Inf if any number is acceptable.
+
+
+
+# Output: 
+
+# TermDocumentMatrix object where each row represents a term (word) in the corpus, and each column represents how many times that word occurs in a corresponding document.
+
+prep.term.document.matrix <- function(wos.df, min.docs.w.word = 1, max.docs.w.word = Inf) {
+  wos.corpus <- prep.corpus(wos.df)
+
+  wos.tdm <-   TermDocumentMatrix(
+    wos.corpus, 
+    control = list(
+      bounds = list(global = c(min.docs.w.word, max.docs.w.word)), 
+      stopwords = TRUE, 
+      removePunctuation = TRUE, 
+      removeNumbers = TRUE, 
+      stem = TRUE))
+
+  return (wos.tdm)
+} 
+```
+Notice the syntax in the function arguments `min.docs.w.word = 1`.  This tells R that if the user doesn't supply this argument, it should default to 1.  Now your job.  
+
+Write a function called `prep.term.frequency.df` with default arguments for `min.docs.w.word` and `max.docs.w.word` that accepts our `wos.df` and
+1. Builds a term document matrix 
+2. Computes the total number of term occurrences across documents.  Hint: use `row_sums` from the `slam` package, which you should load with `library`.
+3.  Creates a dataframe with a column called `word` and a column called `freq` containing the sums.  Hint: `row_sums` will produce a named vector where the names are the words and values are totals.  Extract the names with the `names` function and follow the syntax in the documentation for the `data.frame` function: `data.frame( colname = values)`.
+4. Sorts the dataframe descending by frequency and returns it.
+
+```{r}
+library(slam)
+prep.term.frequency.df <- function (wos.df, min.word = 1, max.word = Inf) {
+    wos.tdm <- prep.term.document.matrix(wos.df, min.word, max.word)
+    
+    row.totals <- row_sums(wos.tdm)
+    wos.freq.df <- data.frame(word = names(row.totals), freq = row.totals)
+    return(wos.freq.df %>% arrange(desc(freq)))
+}
+```
+
+
+Finally, load the `wordcloud2` library and open the documentation for the `wordcloud2` function.  Use your function to make a dataframe and feed it to the `wordcloud2` function.  
+
+```{r}
+library(wordcloud2)
+wos.freq.df <- prep.term.frequency.df(wos.df)
+wos.wc <- wordcloud2(data=wos.freq.df)
+```
+
+Admire your masterpiece.  
+
+Next, in the `TermDocumentMatrix` constructor, there are several interesting arguments: `stopwords`, `removeNumbers`, `removePunctuation`, and `stem`.  These options are common cleaning operations for text data.  If you're not sure what they do, try switching one of them to `FALSE` in the function (be sure to run the code cell with the function in it so R knows about the change), then make a new wordcloud.  What changed?
+
+- stopwords is a list of words curated by researchers that we wish to exclude because they don't have rich meaning.  Such as is, because, you, etc.
+- stem tries to derive the root of the word so that optimize, optimizing, optimized, are all treated as the same word.
+
+Finally, pay attention to the `min.docs.w.word` and `max.docs.w.word` arguments.  By default, they are set to `1` and `Inf` respectively.  Sometimes it is beneficial to fiddle with these arguments until the wordcloud contains meaningful words.  Use your knowledge of the `map` function to try out several different values of `max.docs.w.word`, holding all else constant.  Maybe try a small, medium, large number each.  Don't try too many, because the code might take a while to run.  Which setting works the best?  
+
+Hint: While it is possible to use `map` with multiple arguments at once, it is often easier to create an additional function with a single argument you wish to change that simply calls the more general function with the other arguments fixed.
+
+```{r mapping is useful}
+make.wordcloud <- function(max.docs.w.word) {
+    wos.freq.df <- prep.term.frequency.df(wos.df, max.word = max.docs.w.word)
+    return( wordcloud2(data=wos.freq.df))
+}
+wordclouds.vary.max <- map(c(5,50,200), make.wordcloud)
+```
+
+
+## Latent Dirichlet allocation
+Finish the function outlined below.  Use the functions we've written above whereever you can.  You can copy some code too if need be.
+```{r document term matrix}
+library(tm) # General library for text mining
+library(slam) # Sparse matrix operations, row_sum
+
+
+# Description: This function prepares our combined dataframe for use with LDA.
+
+# Input
+
+# wos.df : the combined dataframe of web of science articles as above.
+
+# min.docs.w.word : require that the terms (words) considered appear in at least this many different documents (articles).  Must be at least 1.  Must be an integer.
+
+# max.docs.w.word : require that the terms (words) considered appear in no more than this many different documents (articles).  Must be at least the minimum.  Set to Inf if any number is acceptable.
+
+
+
+# Output  
+
+# A document term matrix.  The document term matrix is a table where each row is a journal article (document) and each column is a word (term) belonging to at least one document in the dataset.  The entries are the number of times that the term appears in that document.
+
+prep.document.term.matrix <- function (
+  wos.df, min.docs.w.word = 1, max.docs.w.word = Inf) {
+
+  # 1. Create a corpus
+  wos.corpus <- prep.corpus(wos.df)
+
+
+  # 2. Use DocumentTermMatrix function.  Identical arguments to TermDocumentMatrix
+  wos.dtm <- DocumentTermMatrix(
+    wos.corpus, 
+    control = list(
+      bounds = list(global = c(min.docs.w.word, max.docs.w.word)), 
+      stopwords = TRUE, 
+      removePunctuation = TRUE, 
+      removeNumbers = TRUE, 
+      stem = TRUE))
+
+  # Some documents will have no terms remaining in them after filtering out stopwords, stemming, and checking term frequency. Remove documents with no terms by checking that there is at least one nonzero element for each document's row.  row_sums may be helpful together with the indexing syntax we discussed earlier.
+
+  # 3. Remove empties...
+
+  row.totals <- row_sums(wos.dtm)
+
+
+  return(wos.dtm[row.totals > 0,]) # only rows with at least one nonzero entry.
+}
+
+```
+
+
+
+Below, I've provided a function that performs Latent Dirichlet allocation on the Web of Science articles.  While you could certainly learn to write it all yourself, I wanted to prioritize saving a little time.  
+```{r compute lda}
+
+# Uncomment and run the next line if you haven't already
+# install.packages(c("topicmodels"))
+library(topicmodels) # Code for LDA
+library(tidytext) # For retrieving data from LDA
+
+# This function performs LDA.  It accepts a document term matrix and outputs a list with two elements.  
+
+# Input
+# wos.dtm: the document term matrix output the previous function.
+
+# wos.df: the combined web of science dataframe with articles
+
+# num.topics: LDA parameter.  How many different topics to search for?
+
+
+
+# Output: A list with three elements
+# The first element is called topics.terms and it associates terms to each topic discovered by lda.  Use this element to get a sense of what topics the LDA found.  Each term gets a value called beta.  The higher the beta, the stronger the association between the topic and the term.
+
+# The second element is called documents.topics and it shows how much of each topic is present in each document as probability, gamma, between 0 and 1.
+
+# The third element is called wos.lda and it is the lda object as defined in the topicmodels package.
+
+compute.lda <- function ( wos.dtm, wos.df, num.topics) {
+  # compute LDA.  The seed argument ensures everyone gets the same result.
+  wos.lda <- LDA(wos.dtm, k = num.topics, control = list(seed=4023))
+
+  # topics and beta.  tidy returns a dataframe $topic, $term, $beta
+  wos.topics <- tidy(wos.lda, matrix = "beta") 
+
+  # the dataframe returned uses unique ids for the docs.
+  # we'll exchange the ids for the names and abstracts
+  wos.docs <- tidy(wos.lda, matrix = "gamma")
+  wos.docs <- 
+    
+    # Add in the titles and abstracts
+    left_join(wos.docs, wos.df, by = join_by(document == UT..Unique.WOS.ID.)) %>%
+    # rename some columns for convenience
+    rename(abstract = Abstract, title = Article.Title) %>%
+    # restrict the dataframe to just the gammas, title, and abstract
+    select(topic, gamma, title, abstract) %>%
+    # order them exactly this way for easy viewing.
+    relocate(topic, gamma, title, abstract)
+
+  return(
+    list(
+      topics.terms = wos.topics,
+      documents.topics = wos.docs,
+      lda.object = wos.lda
+    )
+  )
+}
+```
+
+
+First, use the functions defined above to compute an lda with the parameters given below. Make sure that your solution to the previous problem is correct, else you might see some error messages. Peruse the output a little so you see what's there.  These functions will take about 30 seconds to run.
+
+
+```{r lda.verify}
+min.docs.w.word <- 3
+max.docs.w.word <- Inf
+num.topics <- 5
+compute.lda.general <- function (wos.df, min.docs.w.word, max.docs.w.word, num.topics) {
+    wos.dtm <- prep.document.term.matrix(
+        wos.df, 
+        min.docs.w.word, 
+        max.docs.w.word)
+    wos.lda <- compute.lda(wos.dtm, wos.df, num.topics)
+    return(wos.lda)
+}
+wos.lda <- compute.lda.general(wos.df, min.docs.w.word, max.docs.w.word, num.topics)
+```
+
+Now that we've verified everything works, let's think about how to interpret these results effectively.  First, we'll work on the `topics.terms` dataframe.  We'd like to know which terms are most highly associated with each topic.  In pseudocode, I'd recommend that you seek out *for each* topic the five terms with the highest beta value and inspect them.  Write a *function* to create such a view in a single tidyverse pipeline.  You'll need to use one function we've seen before that let's you compute the same thing for each topic. And one new function you should search for to find the largest five terms.  
+
+
+```{r explore topics}
+help(slice_max)
+find.topic.terms <- function( topics.terms ) {
+    topics.terms %>%
+        group_by(topic) %>%
+        slice_max(order_by = beta, n=5) %>%
+        ungroup()
+}
+```
+
+
+Test out your function.  Any useful patterns you can glean?  What are the topics about?  You might notice that some of the same words show up each topic.  This is normal, and it's a feature.  The LDA is telling you that the same word is used in different contexts.  What if we want to find just the words that are most distinctive to each topic?  
+
+Write another function.  This time, compute three values for each term in the `topics.terms` dataframe: 
+1. The max `beta` for the term divided by the sum of the `betas` for all topics.  That is, we're computing something like the exclusivity of the term for the most likely topic.  If it is near one, then the term is almost exclusively associated to that max topic.
+2. The maximum `beta` for this term.
+2. The topic number corresponding to the max `beta`.
+
+The result should be a dataframe with four columns: `term`, `exclusivity`, `beta.max`, and `topic`.  With that dataframe in hand, you will find terms for each topic such that both `beta.max` and `exclusivity` are pretty big.
+
+Hints.  Your pipeline should look like:
+
+1. group by
+2. summarize.  Here's where you create the four columns by reducing each group to a single row.  You will use `max`, `sum`, `which.max` and indexing syntax to create the columns.
+3. ungroup.  
+4. filter.  Ensure that your results are highly connected to the topic by forcing `beta.max` to be large enough.  Maybe `0.001`, feel free to experiment?
+5. group by
+6. `slice_max`
+7. ungroup
+
+```{r explore terms}
+help(which.max)
+which.max( c(2,5,-1))
+find.exclusive.terms <- function( topics.terms) {
+    topics.terms %>%
+        group_by(term) %>%
+        summarize( exclusivity = max(beta)/sum(beta), beta.max = max(beta), topic = topic[which.max(beta)]) %>%
+        ungroup() %>%
+        filter( beta.max > 0.001) %>%
+        group_by(topic) %>%
+        slice_max(order_by = exclusivity * beta.max, n=5) %>%
+        ungroup()
+}
+```
+
+Does this give you any more insight when you apply the function?
+
+
+Last but not least, we might also want to use the documents themselves for insight.  LDA assigns to each document the probability that it is associated with each topic.  The `documents.topics` dataframe from `compute.lda` contains these probabilities in the `gamma` column.  
+
+Write a function that finds, for each topic, the 2 documents with the highest probability of belonging to that topic.  It should return a dataframe with two entries per topic, their gamma values, the abstract, and the title if you like.
+
+```{r explore documents}
+find.exclusive.documents <- function (documents.topics) {
+    documents.topics %>% 
+        relocate(topic, gamma) %>%
+        select(topic, gamma, abstract) %>%
+        group_by(topic) %>%
+        slice_max(order_by = gamma, n = 2) %>%
+        ungroup()
+}
+```
+
+Pay attention to the `gamma` values.  Are any of them higher than 0.50?  If not, then the document doesn't belong squarely in any one topic.  Which topic is most distinctive?   What is it?
+
