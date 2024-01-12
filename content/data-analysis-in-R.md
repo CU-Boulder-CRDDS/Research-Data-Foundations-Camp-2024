@@ -46,4 +46,4 @@ The lesson plan is based on notes and exercises prepared by the instructor. Plea
 
 [Download Exercises](data-analysis-in-R/presentation_materials/exercises.Rmd){: .btn .btn-blue }. 
 
-
+[Exercise Solutions](data-analysis-in-R/presentation_materials/solutions.Rmd){: .btn .btn-blue }. 
