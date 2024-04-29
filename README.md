@@ -1,4 +1,4 @@
-# CRDDS Research Data Camp Materials (January 2024)
+# CRDDS Research Data Camp Materials, January 2024
 
 This GitHub repository contains materials associated with the January 2024 CRDDS and Colorado State Research Data Camp for graduate students, and underpins the corresponding Camp [website](https://cu-boulder-crdds.github.io/RDC_january2024/). 
 
