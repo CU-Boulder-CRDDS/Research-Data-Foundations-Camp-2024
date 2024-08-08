@@ -8,7 +8,7 @@ Sponsored by the [Center for Research Data and Digital Scholarship (CRDDS)](http
 
 ## Schedule
 
-_Slides and other content not yet finalized._
+_Slides and other workshop content not yet finalized._
 
 ### Tuesday, August 20th
 
@@ -16,7 +16,7 @@ _Slides and other content not yet finalized._
 | --- | ---|----|
 | 10:00 to 10:25 | [Welcome and Introduction](content/introduction.html)|Matthew Murray|
 | 10:30-11:15| [Data Ethics](content/data-ethics.html)| Nickoal Eichmann-Kalwara and Katerina Allmendinger
-| 11:15-12:00| [Data Discovery](content/finding-data.html)| Liz Novosel
+| 11:15-12:00| [Data Discovery](content/data-discovery.html)| Liz Novosel
 | 12:00-12:55| Break|
 | 1:00-2:15| [Data Publishing](content/data-publishing-CU-scholar.html)| Melissa Cantrell
 | 2:15 to 3:30| [Data Management](content/data_management.html)|Matthew Murray
@@ -67,7 +67,6 @@ University of Colorado Boulder Libraries
 
 Nickoal Eichmann-Kalwara (she/hers)\
 Digital Scholarship Librarian\
-Associate Professor\
 Center for Research Data and Digital Scholarship\
 University of Colorado Boulder Libraries
 
@@ -79,12 +78,11 @@ Statistics Consultant, Center for Research Data and Digital Scholarship\
 Matthew Murray (he/they)\
 Data Librarian\
 Center for Research Data and Digital Scholarship\
-University of Colorado Boulder Libraries
+University of Colorado Boulder Libraries\
 [matthew.murray-2@colorado.edu](mailto:matthew.murray-2@colorado.edu)
 
 Liz Novosel (she/hers)\
 Computer Science, Mathematics and Social Sciences Librarian\
-Assistant Professor\
 University of Colorado Boulder Libraries\
 [elizabeth.novosel@colorado.edu](mailto:elizabeth.novosel@colorado.edu)
 
@@ -101,5 +99,4 @@ University of Colorado Boulder Libraries
 
 Phil White\
 Earth, Environment and Geospatial Librarian\
-Associate Professor\
 University of Colorado Boulder Libraries
