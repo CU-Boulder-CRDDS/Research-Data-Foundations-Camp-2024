@@ -4,7 +4,7 @@ title: Home
 nav_order: 1
 ---
 # August 2024 Research Data Camp
-Sponsored by the [Center for Research Data and Digital Scholarship (CRDDS)](https://www.colorado.edu/crdds/) and [Colorado State University Libraries](https://www.colostate.edu)
+Sponsored by the [Center for Research Data and Digital Scholarship (CRDDS)](https://www.colorado.edu/crdds/).
 
 ## Instructors and Organizers
 
