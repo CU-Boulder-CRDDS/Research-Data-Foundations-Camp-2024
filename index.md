@@ -3,7 +3,7 @@ layout: default
 title: Home
 nav_order: 1
 ---
-# August 2024 Research Data Camp
+# August 2024 Research Data Foundations Camp
 Sponsored by the [Center for Research Data and Digital Scholarship (CRDDS)](https://www.colorado.edu/crdds/).
 
 ## Instructors and Organizers
