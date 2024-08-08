@@ -2,15 +2,15 @@
 layout: default
 title: Data Ethics
 has_children: false
-nav_order: 1.502
+nav_order: 1.501
 ---
 
 # Data Ethics 
 
 ## Instructor
 
-Nickoal Eichmann-Kalwara and 
-Katerina Allmendinger
+Nickoal Eichmann-Kalwara (Digital Scholarship Librarian) and 
+Katerina Allmendinger (Success and Engagement Librarian)\
 University of Colorado Boulder Libraries
 
 ## Session Synopsis

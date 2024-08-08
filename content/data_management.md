@@ -8,9 +8,9 @@ nav_order: 1.51
 # Data Management
 
 ## Instructor
-Mara Sedlins\
-Research Data Management Specialist\
-Colorado State University Libraries
+Matthew Murray\
+Data Librarian\
+University of Colorado Boulder Libraries
 
 ## Introduction
 

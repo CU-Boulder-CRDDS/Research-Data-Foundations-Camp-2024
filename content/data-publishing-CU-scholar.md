@@ -10,13 +10,11 @@ nav_order: 1.5021
 ## Instructor
 
 Melissa Cantrell  
-Assistant Professor  
 Scholarly Communication Librarian\
 Center for Research Data and Digital Scholarship
 
-Andrew Johnson\
-Associate Professor\
-Head of Data and Scholarly Communciation Services\
+Matthew Murray
+Data Librarian\
 Center for Research Data and Digital Scholarship
 
 

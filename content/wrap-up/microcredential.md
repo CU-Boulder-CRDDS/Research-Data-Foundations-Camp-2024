@@ -1,26 +1,26 @@
 ---
 layout: default
-title: Research Data Camp Microcredential
+title: Research Data Foundations Camp Microcredential
 parent: Wrap Up and Next Steps
 nav_order: 1
 ---
-# Research Data Camp Microcredential
+# Research Data Foundations Camp Microcredential
 
-The goal of the Research Data Camp Microcredential is to provide learners with an opportunity to demonstrate literacy in:
+The goal of the Research Data Foundations Camp Microcredential is to provide learners with an opportunity to demonstrate literacy in:
 
 * R **OR** Python programming for data analysis
 * Critical evaluation of existing data sets and data approaches
 
 To earn the microcredential certifying literacy in these areas, learners must complete the following:
 
-* Attend **all three days** of the Research Data Camp
-* Complete a final project (described below) that demonstrates specific knowledge and skills taught at the Research Data Camp
+* Attend **all three days** of the Research Data Foundations Camp
+* Complete a final project (described below) that demonstrates specific knowledge and skills taught at the Research Data Foundations Camp
 
 For more on what microcredentials are, and why you should consider earning one, please see this resource from CU Boulder's [Office of the Registrar](https://www.colorado.edu/registrar/faculty-staff/programs/micro-credentials). 
 
 ## Final Project
 
-**The final project will be due by March 31, 2024; to submit the project, push your project code to a dedicated GitHub repository, and send us a link to the repository.**
+**The final project will be due by October 31, 2024; to submit the project, push your project code to a dedicated GitHub repository, and send us a link to the repository.**
 
 Final projects will consist of a portfolio of work hosted on a GitHub repository (you are also encouraged to publish your portfolio materials via GitHub pages; see below). Completed microcredential project portfolios must include the following elements:
 
@@ -43,20 +43,20 @@ However, you are **not** required to publish your code via GitHub Pages. It is p
 
 ## What You Will Receive
 
-If you complete and submit the microcredential project, you will receive a digital certificate that officially certifies your participation in the Research Data Camp, and your completion of the associated project. This certificate will include a link to the repository containing your project materials; this will allow those viewing the microcredential (for example, future employers, supervisors, or collaborators) to verify your familiarity with the Camp's core competencies.
+If you complete and submit the microcredential project, you will receive a digital certificate that officially certifies your participation in the Research Data Foundations Camp, and your completion of the associated project. This certificate will include a link to the repository containing your project materials; this will allow those viewing the microcredential (for example, future employers, supervisors, or collaborators) to verify your familiarity with the Camp's core competencies.
 
 ## Examples
 
 To give you a sense of the nature and scope of a possible project, consider the following hypothetical project ideas:
 
-**Example 1:**Using information from a data set that contains information on the geographic locations of US yoga studios, we might calculate the geographic density of yoga studios with respect to a geographic unit of interest. For our portfolio, we might create a table from this data set (ex. “Census Tracts With Highest Yoga Studio Density per Square Kilometer”), which could be accompanied by a visualization that depicts this variation in density (such as a map or bar chart). The table and visualization, along with the code used to generate them, could be pushed up to your GitHub repository as part of your microcredential portfolio.
+**Example 1:** Using information from a data set that contains information on the geographic locations of US yoga studios, we might calculate the geographic density of yoga studios with respect to a geographic unit of interest. For our portfolio, we might create a table from this data set (ex. “Census Tracts With Highest Yoga Studio Density per Square Kilometer”), which could be accompanied by a visualization that depicts this variation in density (such as a map or bar chart). The table and visualization, along with the code used to generate them, could be pushed up to your GitHub repository as part of your microcredential portfolio.
 
 
-**Example 2:**In a data set of snowfall across several ski resorts/areas, we might write code to generate a table of  summary statistics (i.e. mean, median, standard deviation etc.) for the snowfall variable (and other variables of interest). Alternatively, we could calculate correlations between variables of interest, or formally test hypotheses  using inferential statistics (for example, using a difference of means test or a regression analysis). In this case, the output containing the results of the relevant test(s) (ex. a table of summary statistics, regression table etc.) and the code used to create them would be our portfolio examples.
+**Example 2:** In a data set of snowfall across several ski resorts/areas, we might write code to generate a table of  summary statistics (i.e. mean, median, standard deviation etc.) for the snowfall variable (and other variables of interest). Alternatively, we could calculate correlations between variables of interest, or formally test hypotheses  using inferential statistics (for example, using a difference of means test or a regression analysis). In this case, the output containing the results of the relevant test(s) (ex. a table of summary statistics, regression table etc.) and the code used to create them would be our portfolio examples.
 
 ## Final Project Tips
 
-1. **This does not have to be perfect!** We are looking for demonstrated literacy and understanding of the concepts and discussions through the Research Data Camp.
+1. **This does not have to be perfect!** We are looking for demonstrated literacy and understanding of the concepts and discussions through the Research Data Foundations Camp.
 
 2. **We are here to help!** Please reach out if you'd like assistance with your microcredential project. 
 
@@ -65,7 +65,6 @@ To give you a sense of the nature and scope of a possible project, consider the 
 ## Turn in Your Final Portfolio Project!
 Use this [Google Survey link](https://docs.google.com/forms/d/e/1FAIpQLScg1zEMAX7CqgimJc53fyBroUagLvjjLPkNMfdR5-8nx0OhcA/viewform?usp=share_link) to turn in your project. In addition to filling out the form, please also email us with a link to the GitHub page or repository that hosts your project materials. 
 
-If you are at CU-Boulder, please send your email to [aditya.ranganath@colorado.edu](mailto:aditya.ranganath@colorado.edu). 
-If you are at Colorado State, please send your email to [kevin.worthington@colostate.edu](mailto:kevin.worthington@colostate.edu). 
+Please send your email to [aditya.ranganath@colorado.edu](mailto:aditya.ranganath@colorado.edu). 
 
 Thank you!
