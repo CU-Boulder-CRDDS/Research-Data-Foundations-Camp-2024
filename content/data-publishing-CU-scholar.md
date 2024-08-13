@@ -24,7 +24,7 @@ This section provides an overview of resources, requirements, and best practices
 
 ## Presentation
 
-If you'd like to access the presentation slide-deck in its own window, please click [here](data-publishing-cu-scholar/data_publishing_repositories.pdf).
+If you'd like to access the presentation slide-deck in its own window, please click [here](data-publishing-cu-scholar/DataPublishing_20240820_Cantrell.pdf).
 
-<iframe src="data-publishing-cu-scholar/data_publishing_repositories.pdf" style="width: 800px; height: 2800px;" frameBorder="0"></iframe>
+<iframe src="data-publishing-cu-scholar/DataPublishing_20240820_Cantrell.pdf" style="width: 800px; height: 2800px;" frameBorder="0"></iframe>
 
