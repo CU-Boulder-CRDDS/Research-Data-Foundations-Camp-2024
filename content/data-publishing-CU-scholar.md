@@ -9,11 +9,11 @@ nav_order: 1.5021
 
 ## Instructor
 
-Melissa Cantrell  
+Melissa Cantrell\
 Scholarly Communication Librarian\
 Center for Research Data and Digital Scholarship
 
-Matthew Murray
+Matthew Murray\
 Data Librarian\
 Center for Research Data and Digital Scholarship
 
