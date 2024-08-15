@@ -8,7 +8,7 @@ nav_order: 1.524
 
 # Getting started with Python
 
-Welcome to this Introductory workshop on GitHub Pages. During the workshop, we will walk through the information and tasks detailed on these pages. Use the table of contents to navigate through the workshop.
+Welcome to this introductory workshop on working with data in Python! During the workshop, we will walk through the information and tasks detailed on these pages. Use the table of contents to navigate through the workshop.
 
 ____
 ### Presenter
