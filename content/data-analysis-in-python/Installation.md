@@ -22,7 +22,8 @@ This workshop presumes you have the [Anaconda distribution installed](https://do
 
 ![Check the Path option](../img/pypic1.png) 
 
->Yes, we know Anaconda does not recommend this, but there are advantages of adding it to your PATH for beginners. If you already have Anaconda, or are experienced with this type of thing, you *can* skip this, you just may not be able to launch some of these applications from your command line.  
+Yes, we know Anaconda does not recommend this, but there are advantages of adding it to your PATH for beginners. If you already have Anaconda, or are experienced with this type of thing, you *can* skip this, you just may not be able to launch some of these applications from your command line.
+{: .note}
 
 4. Proceed through the remaining installation steps keeping everything else as default.  
 
