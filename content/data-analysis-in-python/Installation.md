@@ -20,7 +20,7 @@ This workshop presumes you have the [Anaconda distribution installed](https://do
 
 3. During the installation process, keep all of the default options, ***EXCEPT* be sure to check the box to Add Anaconda to the PATH environment variable.**  
 
-![Check the Path option](Picture1.png) 
+![Check the Path option](img/pypic1.png) 
 
 >Yes, we know Anaconda does not recommend this, but there are advantages of adding it to your PATH for beginners. If you already have Anaconda, or are experienced with this type of thing, you *can* skip this, you just may not be able to launch some of these applications from your command line.  
 
