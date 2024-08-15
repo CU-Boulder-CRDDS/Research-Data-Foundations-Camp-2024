@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Python Intro</title>
+
+		<meta name="description" content="Presentation on 1-10-2024 at CU Boulder Libraries">
+		<meta name="author" content="Phil White">
+
+		<meta name="reveal" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="creator" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/bootcamp_style.css" id="theme">
+
+		<!-- emoji style -->
+		<link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
+
+		<style>
+
+		#left_slide {
+			text-align: left;}
+
+		</style>
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
+	</head>
+
+	<body>
+
+		<div class="reveal">
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+
+				<section data-background-color='#36648B'>
+					<h4 style="text-align: left">Getting up and running with <span><img src='python-logo@2x.png' height="75" style="vertical-align:middle"></span></h4>
+					<p style="text-align: left;; font-size: 1em">2024 Research Data Camp</p><br><br><br>
+						<div style="text-align: right">
+							<p style='line-height: 1'><strong>Phil White </strong></p>
+							<p style='font-size: .75em; line-height: 1'>Earth, Environment & Geospatial Librarian</p>
+							<p style='font-size: .75em; line-height: 1'>January 10, 2024</p>
+							<p><a href='https://cu-boulder-crdds.github.io/RDC_january2024' target='_blank' style='font-size: .75em'>cu-boulder-crdds.github.io/RDC_january2024</a></p>
+						</div>
+				</section>
+
+				<section>
+					<h2>Background Info</h2>
+						<ul>
+							<li class='fragment'>Python: What is it and why?</li>
+							<li class="fragment">Distributions, Environments, Package Management</li>
+							<li class="fragment">Scripts and Notebooks</li>
+						</ul>
+        </section>
+
+				<section>
+					<h2>What is Python?</h2>
+					<ul>
+						<li class="fragment">A programming language... <span class="fragment">or scripting language.</span><i class="em em-computer" aria-role="presentation" aria-label="PERSONAL COMPUTER"></i></li>
+						<li class="fragment">Free and open source.</li>
+						<li class="fragment">Human-readable syntax.</li>
+						<li class="fragment">Object-oriented... </li>
+						<li class="fragment">Extremely popular for "data science" applications.</li>
+					</ul>
+				</section>
+				
+				<section>
+					<h2>Why Learn Python?</h2>
+					<ul>
+						<li class="fragment">Pretty easy to learn! <span class="fragment">(Nevermind me throwing my equipment across the room.)</span></li>
+						<li class="fragment">Sought after skill.</li>
+						<li class="fragment">Excellent data science libraries including Pandas, Numpy, so much more.</li>
+						<li class="fragment">General purpose makes it extremely versatile.</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Why use Python for your research?</h2>
+					<ul>
+						<li class="fragment">Well, if you're not coding... obvious benefits.</li>
+						<li class="fragment">Efficient! Replicable! Reproducible!</li>
+						<li class="fragment">Open code = open methods = better science</li>
+						<li class="fragment">Scalable... <span class="fragment">run your code on a super computer!</span></li>
+						<li class="fragment">We're moving toward code/notebooks as scientific communication. Data, methods, product all in one.</li>
+					</ul>
+				</section>
+
+				<section>
+					<h1>Revolutionize the way you work.</h1>
+				</section>
+
+				<section data-background-color='#FF9912'>
+					<h1>Now, some practical bits.</h1>
+				</section>
+
+				<section>
+					<ul>
+						<li>Python is a scripting language... </li>
+						<li class="fragment">...What is a script?</li><br>
+						<li class="fragment">Great! Now I know what a script is!</li>
+					</ul>
+				</section>
+
+				<section>
+					<ul>
+						<li>What about this "Notebook" stuff?</li>
+						<li class="fragment">A "Notebook" is like an interactive, step-by-step, code executing tool...</li>
+						<li class="fragment">And also a document and scientific communication media...</li>
+						<li class="fragment">Like, a methods section, results section, (whole paper?) that documents itself sort of...</li>
+						<li class="fragment">I should just show you.</li>
+					</ul>
+				</section>
+
+				<section>
+					<ul>
+						<li>The most popular Python Notebooking tool is <a href="https://jupyter.org/" target='_blank'>Jupyter.</a></li>
+						<li>Second option: Google Colab (web based)</li>
+					</ul>
+				</section>
+
+				<section>
+					<h3>Scripts vs Notebooks</h3>
+					<p class="fragment" style="text-align: left;">Notebooks are great for:</p>	
+					<ol>
+							<li class="fragment">Cell by cell executing.</li>
+							<li class="fragment">Including context and documentation in Markdown cells.</li>
+							<li class="fragment">Viewing outputs and visualizations.</li>
+							<li class="fragment">Immediate feedback is useful for learning, isolating errors, debugging, etc.</li>
+							<li class="fragment">Analysis when used as a medium of communication.</li>
+							<li class="fragment">Futzing around, hacking stuff.</li>
+							<li class="fragment">Teaching!</li>
+					</ol>
+				</section>
+
+				<section>
+					<h3>Scripts vs Notebooks</h3>
+					<p class="fragment" style="text-align: left;">Use scripts when:</p>	
+					<ol>
+							<li class="fragment">You need to "set it and forget it"... <span class="fragment">or automating at a large scale.</span></li>
+							<li class="fragment">You're creating your own module (aka library, package)... <span class="fragment">You start writing more functions, classes, methods.</span></li>
+							<li class="fragment">You need parallel processing.</li>
+							<li class="fragment">Eventually, you realize the utility of modularizing your code...</li>
+							<li class="fragment">There are many times when scripts are better, maybe not until you're more advanced.</li>
+					</ol>
+				</section>
+
+				<section data-background-color='#FF9912'>
+					<h2>More practical bits:</h2>
+					<h3>Package managers, dependencies, environments.</h3>
+				</section>
+
+				<section>
+					<h3>Q: How do I install a Python package?</h3><br>
+					<ul>
+						<li class="fragment">A: use a package manager!</li>
+						<li class="fragment">Package managers are just commands that help you install packages</li>
+						<li class="fragment"><code>pip install scipy</code></li>
+						<li class="fragment">(Maybe?) The most commonly used is pip... <span class="fragment">DON'T DO IT!</span></li>
+					</ul>
+				</section>
+
+				<section>
+					<h3>Why not use pip?</h3><br>
+					<h3 class="fragment">Because dependency issues.</h3>
+				</section>
+
+				<section>
+					<h3>Use Conda! (Anaconda)</h3>
+					<ul>
+						<li class="fragment">Conda installs packages but also resolves dependency issues.</li>
+						<li class="fragment"><code>conda install emoji</code></li>
+						<li class="fragment">You run these commands in your command line. More on that later.</li>
+					</ul>
+				</section>
+
+				<section>
+					<h3>Sometimes, different python packages conflict! <i class="em em-face_palm" aria-role="presentation" aria-label="FACE PALM"></i><i class="em em-boxing_glove" aria-role="presentation" aria-label="BOXING GLOVE"></i><i class="em em-no_entry_sign" aria-role="presentation" aria-label="NO ENTRY SIGN"></i></h3>
+				</section>
+
+				<section>
+					<h3>Conda environments</h3>
+					<ul>
+						<li class="fragment">Environments allow you to have multiple Python "stacks"</li>
+						<li class="fragment">One environment for general purpose, one for geospatial, one for astronomy, etc.</li>
+						<li class="fragment">As your "stack" gets more complex, it becomes less general purpose, so useful to isolate it.</li>
+						<li class="fragment">Environments can also be shared with others, so they can replicate your exact Python setup.</li>
+						<li class="fragment"><code>conda create --name new_env python=3.12</code></li>
+					</ul>
+				</section>
+
+				<section data-background-color='#CD0000'>
+					<h3>A few words on errors and debugging... </h3><br>
+					<p><i class="em em-angry" aria-role="presentation" aria-label="ANGRY FACE"></i> <i class="em em-confounded" aria-role="presentation" aria-label="CONFOUNDED FACE"></i> <i class="em em-tired_face" aria-role="presentation" aria-label="TIRED FACE"></i></p>
+				</section>
+
+				<section data-background-color='#FF9912'>
+					<h3>Enough talk. Let's press some buttons.<i class="em em-keyboard" aria-role="presentation" aria-label=""></i></h3><br>
+				</section>
+
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/zoom/zoom.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/search/search.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+
+			// Also available as an ES module, see:
+			// https://revealjs.com/initialization/
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				center: true,
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealZoom, RevealNotes, RevealSearch, RevealMarkdown, RevealHighlight ]
+			});
+
+		</script>
+
+	</body>
+</html>
