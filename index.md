@@ -17,7 +17,7 @@ _Slides and other workshop content not yet finalized._
 | 10:00 to 10:25 | [Welcome and Introduction](content/introduction.html)|Matthew Murray|
 | 10:30-11:15| [Data Ethics](content/data-ethics.html)| Nickoal Eichmann-Kalwara and Katerina Allmendinger
 | 11:15-12:00| [Data Discovery](content/data-discovery.html)| Liz Novosel
-| 12:00-12:55| Break|
+| 12:00-1:00| Break|
 | 1:00-2:15| [Data Publishing](content/data-publishing-CU-scholar.html)| Melissa Cantrell
 | 2:15 to 3:30| [Data Management](content/data_management.html)|Matthew Murray
 |3:30 to 3:45|Break|
@@ -38,7 +38,7 @@ _Slides and other workshop content not yet finalized._
 | --- | ---|----|
 | 9:00 to 10:00| Set up Python (optional)| 
 | 10:00 to 12:00 | [Python Fundamentals](content/data-analysis-in-python/python_foundations.html)| Phil White|
-| 12:00 to 12:55| Break
+| 12:00 to 1:00| Break
 | 1:00 to 3:30 | [Data Analysis in Python](content/data-analysis-in-python/python_data_analysis.html)| Phil White|
 | 3:30 to 3:45|[Conclusion and Wrap-Up](content/wrap-up.html)|Matthew Murray|
 | 3:45 to 5:00| Optional Office Hours| CRDDS Team
