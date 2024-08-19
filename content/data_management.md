@@ -18,9 +18,9 @@ This presentation introduces basic concepts, tools, and resources that will help
 
 ## Presentation
 
-If you'd like to access the presentation slide-deck in a separate window, please click [here](data_management/RDM_2024-01-09.pdf).
+If you'd like to access the presentation slide-deck in a separate window, please click [here](data_management/MMurray-DataManagement-20240820.pdf).
 
-<iframe src="data_management/RDM_2024-01-09.pdf" style="width: 800px; height: 2800px;" frameBorder="0"></iframe>
+<iframe src="data_management/MMurray-DataManagement-20240820.pdf" style="width: 800px; height: 2800px;" frameBorder="0"></iframe>
 
 
 ## Additional Resource
