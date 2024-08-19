@@ -47,8 +47,8 @@ _Slides and other workshop content not yet finalized._
 
 | Time | Content|Presenters(s)
 | --- | ---|----|
-| 10:00 to 4:00| Opportunity to work on micro-credential assignment (optional)| 
-
+| 10:00 to 1:00| Opportunity to work on micro-credential assignment (optional) - Virtual: Zoom Link| 
+| 1:00 to 3:00| Opportunity to work on micro-credential assignment (optional) - In-person: Norlin Library, E206| 
 
 _Actual schedule may vary depending on group needs; all times refer to Mountain Standard Time (MST)_  
 
