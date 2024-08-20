@@ -23,6 +23,9 @@ If you'd like to access the presentation slide-deck in its own window, please cl
 
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRMBRVVdY_tvZ1zb6aB0R1Zc_CNenpnHbl2yPTQig6pYrh8qu-3PAvoCvJTNknnakhNLZrZyZUdCL4y/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
+If you'd like to access the presentation slide-deck in a separate window, please click [here](ethics/DataEthics20240820.pdf.pdf).
+
+<iframe src="ethics/DataEthics20240820.pdf" style="width: 800px; height: 2800px;" frameBorder="0"></iframe>
 
 
 
