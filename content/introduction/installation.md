@@ -10,7 +10,7 @@ In order to follow along with the sessions on R and Python (on Days 2 and 3 resp
 
 ## Python Installation Instructions
 
-The Python workshop uses [Anaconda](https://www.anaconda.com/), a data science platform which includes all the required software needed for the Python component of this workshop. Please follow [these instructions](data-analysis-in-python/Installation) to download and install Anaconda in advance of this workshop. 
+The Python workshop uses [Anaconda](https://www.anaconda.com/), a data science platform which includes all the required software needed for the Python component of this workshop. Please follow [these instructions](https://cu-boulder-crdds.github.io/Research-Data-Foundations-Camp-2024/content/data-analysis-in-python/Installation) to download and install Anaconda in advance of this workshop. 
 
 ## R and R Studio Installation Instructions
 
