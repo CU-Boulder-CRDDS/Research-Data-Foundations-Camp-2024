@@ -46,9 +46,9 @@ The goal of this workshop is to get you started on Python. You won't learn every
 | 1:00 | Command line activity
 | 1:15 | Pandas Primer
 | 2:00 | Exploratory Analysis with Pandas, matplotlib, Seaborn 
-| 3:00 | Discussion time, other formats
+| 3:00 | Discussion time and Wrap-up
 | 3:20 | Wrap up
 
 
 ### Slides  
-<iframe width="625" height="352" frameborder="0" marginheight="0" marginwidth="0" src="slides/Python_Intro.html"></iframe> *Click on the slides then press the F key for full screen*
+<iframe width="625" height="352" frameborder="0" marginheight="0" marginwidth="0" src="../slides/Python_Intro.html"></iframe> *Click on the slides then press the F key for full screen*
