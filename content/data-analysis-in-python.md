@@ -17,7 +17,7 @@ Earth, Environment & Geospatial Librarian
 University of Colorado Boulder Libraries  
 [philip.white@colorado.edu](mailto:philip.white@colorado.edu)
 
-- [Install Anaconda](https://docs.anaconda.com/anaconda/install/) following the directions [Installation instructions]('data-analysis-in-python/Installation') closely.
+- [Install Anaconda](https://docs.anaconda.com/anaconda/install/) following the directions [Installation instructions](data-analysis-in-python/Installation) closely.
 - Please create a [GitHub account](https://github.com/) right now if you have yet to do so.
 {: .prereq}
 
