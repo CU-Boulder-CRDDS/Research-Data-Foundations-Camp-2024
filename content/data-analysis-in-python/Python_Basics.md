@@ -19,7 +19,7 @@ If you're comfortable using GitHub, clone this repository to your local machine.
 - Unzip the folder. On Windows, double-click and choose "Extract". On Mac, just double click to open the zipped archive.
 
 ### Step 3: Launch Jupyter Notebooks  
-- In a command prompt (Git Bash on Windows or Terminal on Mac) navigate to the workshop materials folder and run the command ```Jupyter Notebook``` 
+- In a command prompt (Git Bash on Windows or Terminal on Mac) navigate to the workshop materials folder and run the command ```Jupyter Lab``` 
 
 **OR**  
 - From your apps/program directory, launch the Anaconda Navigator then launch Jupyter.  
