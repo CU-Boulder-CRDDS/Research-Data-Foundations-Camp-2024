@@ -21,7 +21,7 @@ _Slides and other workshop content not yet finalized._
 | 1:00-2:15| [Data Publishing](content/data-publishing-CU-scholar.html)| Melissa Cantrell
 | 2:15 to 3:30| [Data Management](content/data_management.html)|Matthew Murray
 |3:30 to 3:45|Break|
-| 3:45 to 4:45| [Interdisciplinary Tools Tour](content/interdisciplinary-tour.html)| Nickoal Eichmann-Kalwara
+| 3:45 to 4:45| Fire alarm/building evacuation (Unplanned.)
 
 ### Wednesday, August 21st
 
@@ -40,8 +40,8 @@ _Slides and other workshop content not yet finalized._
 | 10:00 to 12:00 | [Python Fundamentals](content/data-analysis-in-python/python_foundations.html)| Phil White|
 | 12:00 to 1:00| Break
 | 1:00 to 3:30 | [Data Analysis in Python](content/data-analysis-in-python/python_data_analysis.html)| Phil White|
-| 3:30 to 3:45|[Conclusion and Wrap-Up](content/wrap-up.html)|Matthew Murray|
-| 3:45 to 5:00| Optional Office Hours| CRDDS Team
+| 3:30 to 4:15| [Interdisciplinary Tools Tour](content/interdisciplinary-tour.html)| Nickoal Eichmann-Kalwara
+| 4:15 to 4:30|[Conclusion and Wrap-Up](content/wrap-up.html)|Matthew Murray|
 
 ### Friday, August 23nd
 
