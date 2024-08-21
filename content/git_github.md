@@ -11,7 +11,7 @@ Welcome to this Introductory workshop on GitHub Pages. During the workshop, we w
 
 ____
 ### Presenter
-Phil White <a href='https://github.com/philwhite' target='_blank'><img src='../content/img/GitHub-Mark-custom.svg' style='width:15px; padding:0; border:none !important;'></a>  
+Phil "Chainsaw" White <a href='https://github.com/philwhite' target='_blank'><img src='../content/img/GitHub-Mark-custom.svg' style='width:15px; padding:0; border:none !important;'></a>  
 Earth, Environment & Geospatial Librarian  
 University of Colorado Boulder Libraries  
 [philip.white@colorado.edu](mailto:philip.white@colorado.edu)
