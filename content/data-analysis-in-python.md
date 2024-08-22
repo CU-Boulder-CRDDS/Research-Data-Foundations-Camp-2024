@@ -37,7 +37,7 @@ The goal of this workshop is to get you started on Python. You won't learn every
 | 10:00 | Introductions
 | 10:10 | Slides: Getting up and running with Python and Anaconda
 | 10:40 | Hands on: Python programming fundamentals
-| 11:25 | Primer: Navigating the file system, basic I/O operations
+| 11:25 | Primer: Navigating the file system, basic read/write operations
 
 ### Session 2 Schedule
 
